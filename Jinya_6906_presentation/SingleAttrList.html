@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SingleAttrList</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <h2>Single Attribute View</h2>
+</head>
+<body>
+
+<!--<button>Selected 4 Attrs</button>-->
+
+<p>Technical Articles</p>
+<button id="button1">TechArtcl</button>
+<p>CO2 Emission</p>
+<button id="button2">C02 Emission</button>
+
+<!--<button>CO2</button>-->
+<p>GDP</p>
+<button id="button3">GPD</button>
+<!--<button>GDP</button>-->
+<p>Unemployed Rate</p>
+<button id="button4">UnempRate</button>
+<p></p>
+<button id="button5">Compare</button>
+<p></p>
+<button id="buttonBack"><< Back >></button>
+
+<script>
+
+    d3.select("#button1")
+        .on("click",function(){
+            open(src="TechArtcl.html")
+        })
+
+    d3.select("#button2")
+        .on("click",function(){
+            open(src="CO2.html")
+        })
+
+    d3.select("#button3")
+        .on("click",function(){
+            open(src="gdp.html")
+        })
+    d3.select("#button4")
+        .on("click",function(){
+            open(src="UnempRate.html")
+        })
+
+
+    d3.select("#button5")
+        .on("click",function(){
+            open(src="compare4.html")
+        })
+
+    d3.select("#buttonBack")
+        .on("click",function(){
+            open(src="page-1.html")
+        })
+
+
+</script>
+
+
+</body>
+</html>

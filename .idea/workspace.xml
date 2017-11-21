@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit" />
+    <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/.idea/6906_presentation.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/4Attrs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/9Attrs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/AboutData.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/CO2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/ForeignIn.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/LaborForc.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/SingleAttrList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/TechArtcl.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/UnempRate.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/compare4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/compareAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/comparedBarChart_main.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/gdp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/page-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,10 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="80" column="64" lean-forward="true" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
+            <state relative-caret-position="208">
+              <caret line="109" column="86" lean-forward="false" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -31,8 +52,18 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="modules.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Jinya_6906_presentation/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/world map of all regressors/index.html">
+        <entry file="file://$PROJECT_DIR$/world map of all regressors/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -42,7 +73,7 @@
         </entry>
       </file>
       <file leaf-file-name="GDP.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/world map of all regressors/GDP.csv">
+        <entry file="file://$PROJECT_DIR$/world map of all regressors/GDP.csv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
               <caret line="16" column="117" lean-forward="false" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
@@ -52,9 +83,9 @@
         </entry>
       </file>
       <file leaf-file-name="factInvestment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/factInvestment.html">
+        <entry file="file://$PROJECT_DIR$/factInvestment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
+            <state relative-caret-position="324">
               <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
               <folding />
             </state>
@@ -62,7 +93,7 @@
         </entry>
       </file>
       <file leaf-file-name="co2Emission.tsv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/co2Emission.tsv">
+        <entry file="file://$PROJECT_DIR$/co2Emission.tsv">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="72">
               <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -72,9 +103,9 @@
         </entry>
       </file>
       <file leaf-file-name="ResultChordChart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/ResultChordChart.html">
+        <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-70">
+            <state relative-caret-position="540">
               <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
               <folding>
                 <marker date="1511136729000" expanded="true" signature="2470:2651" ph="..." />
@@ -84,9 +115,9 @@
         </entry>
       </file>
       <file leaf-file-name="bundleChart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/bundleChart.html">
+        <entry file="file://$PROJECT_DIR$/bundleChart.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="1386">
               <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="47" />
               <folding>
                 <marker date="1511217146000" expanded="true" signature="1633:2129" ph="..." />
@@ -96,7 +127,7 @@
         </entry>
       </file>
       <file leaf-file-name="resultPieChart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/resultPieChart.html">
+        <entry file="file://$PROJECT_DIR$/resultPieChart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="810">
               <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
@@ -135,10 +166,11 @@
       <find>data</find>
       <find>labour force</find>
       <find>pdf</find>
+      <find>k-ma</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../DataVS_6909_project" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -151,7 +183,7 @@
         <option value="$PROJECT_DIR$/factInvestment.html" />
         <option value="$PROJECT_DIR$/bundleChart.html" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/../DataVS_6909_project/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -161,7 +193,7 @@
     <detection-done>true</detection-done>
     <gulpfiles>
       <GulpfileState>
-        <gulpfile-path>$PROJECT_DIR$/../DataVS_6909_project/gulpfile.js</gulpfile-path>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
         <tasks>
           <GulpTaskState>
             <task-name>sass</task-name>
@@ -200,12 +232,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="NodeModulesDirectoryManager">
-    <handled-path value="$PROJECT_DIR$/../DataVS_6909_project/node_modules" />
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="1280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -224,6 +255,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -231,11 +263,21 @@
               <item name="DataVS_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataVS_6909_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataVS_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataVS_6909_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Jinya_6906_presentation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataVS_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataVS_6909_project" type="462c0819:PsiDirectoryNode" />
+              <item name="Jinya_6906_presentation" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,7 +287,7 @@
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/../DataVS_6909_project/node_modules/gulp" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -288,26 +330,26 @@
       <updated>1511113701996</updated>
       <workItem from="1511113703219" duration="3170000" />
       <workItem from="1511118669027" duration="10516000" />
-      <workItem from="1511137407385" duration="12510000" />
+      <workItem from="1511137407385" duration="12799000" />
+      <workItem from="1511294671066" duration="76000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26196000" />
+    <option name="totallyTimeSpent" value="26561000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19115324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19062749" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.034387894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29986244" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -315,6 +357,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -329,7 +372,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -344,7 +387,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/ResultChordChart.html">
+    <entry file="file://$PROJECT_DIR$/world map of all regressors/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/world map of all regressors/GDP.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="117" lean-forward="false" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factInvestment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/co2Emission.tsv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding>
+            <marker date="1511136729000" expanded="true" signature="2470:2651" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundleChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="47" />
+          <folding>
+            <marker date="1511217146000" expanded="true" signature="1633:2129" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultPieChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
@@ -354,12 +472,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/resultPieChart.png">
+    <entry file="file://$PROJECT_DIR$/img/resultPieChart.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/resultPieChart.html">
+    <entry file="file://$PROJECT_DIR$/resultPieChart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
           <caret line="39" column="41" lean-forward="true" selection-start-line="39" selection-start-column="41" selection-end-line="39" selection-end-column="41" />
@@ -367,7 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -382,80 +500,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/bg-showcase-1.jpg">
+    <entry file="file://$PROJECT_DIR$/img/bg-showcase-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/bg-showcase-3.jpg">
+    <entry file="file://$PROJECT_DIR$/img/bg-showcase-3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/testimonials-1.jpg">
+    <entry file="file://$PROJECT_DIR$/img/testimonials-1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/testimonials-2.jpg">
+    <entry file="file://$PROJECT_DIR$/img/testimonials-2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/testimonials-3.jpg">
+    <entry file="file://$PROJECT_DIR$/img/testimonials-3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/bg-masthead1.jpg">
+    <entry file="file://$PROJECT_DIR$/img/bg-masthead1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/bg-masthead1.jpg">
+    <entry file="file://$PROJECT_DIR$/img/bg-masthead1.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/scss/_masthead.scss">
+    <entry file="file://$PROJECT_DIR$/scss/_masthead.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="36" lean-forward="false" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/nvd3-gh-pages/src/css/pie.css">
+    <entry file="file://$PROJECT_DIR$/nvd3-gh-pages/src/css/pie.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/nvd3-gh-pages/examples/lib/colorbrewer.js">
+    <entry file="file://$PROJECT_DIR$/nvd3-gh-pages/examples/lib/colorbrewer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/bg-showcase-2.jpg">
+    <entry file="file://$PROJECT_DIR$/img/bg-showcase-2.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/estimation.png">
+    <entry file="file://$PROJECT_DIR$/img/estimation.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/img/resultPieChart.png">
+    <entry file="file://$PROJECT_DIR$/img/resultPieChart.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/ResultChordChart.html">
+    <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-70">
+        <state relative-caret-position="540">
           <caret line="30" column="48" lean-forward="false" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
           <folding>
             <marker date="1511136729000" expanded="true" signature="2470:2651" ph="..." />
@@ -463,7 +581,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/co2Emission.tsv">
+    <entry file="file://$PROJECT_DIR$/co2Emission.tsv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -471,7 +589,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/resultPieChart.html">
+    <entry file="file://$PROJECT_DIR$/resultPieChart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
           <caret line="45" column="34" lean-forward="false" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
@@ -479,17 +597,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/factCo2pieChart.html">
+    <entry file="file://$PROJECT_DIR$/factCo2pieChart.html" />
+    <entry file="file://$PROJECT_DIR$/bundleChart.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/bundleChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="1386">
           <caret line="77" column="47" lean-forward="false" selection-start-line="77" selection-start-column="46" selection-end-line="77" selection-end-column="47" />
           <folding>
             <marker date="1511217146000" expanded="true" signature="1633:2129" ph="..." />
@@ -497,15 +608,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/factInvestment.html">
+    <entry file="file://$PROJECT_DIR$/factInvestment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
+        <state relative-caret-position="324">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/world map of all regressors/GDP.csv">
+    <entry file="file://$PROJECT_DIR$/world map of all regressors/GDP.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="16" column="117" lean-forward="false" selection-start-line="16" selection-start-column="117" selection-end-line="16" selection-end-column="117" />
@@ -513,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/world map of all regressors/index.html">
+    <entry file="file://$PROJECT_DIR$/world map of all regressors/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -521,10 +632,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../DataVS_6909_project/index.html">
+    <entry file="file://$PROJECT_DIR$/Jinya_6906_presentation/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="80" column="64" lean-forward="true" selection-start-line="80" selection-start-column="64" selection-end-line="80" selection-end-column="64" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="109" column="86" lean-forward="false" selection-start-line="109" selection-start-column="86" selection-end-line="109" selection-end-column="86" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />

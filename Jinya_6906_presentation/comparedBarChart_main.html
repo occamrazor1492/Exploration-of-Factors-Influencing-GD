@@ -1,0 +1,675 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>ComparedBarChart</title>
+</head>
+<h2>k-mean clustering</h2>
+<!--<p>with attribute of Laber force,foreign direct investment net flows, technical articles, and co2 emissions </p>-->
+
+<style>
+    .axis path,
+    .axis line{
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+
+    .MyRect {
+        /*fill: ;*/
+    }
+
+    .MyText {
+        fill: black;
+        text-anchor: middle;
+    }
+</style>
+<!--<svg id="#chart"></svg>-->
+
+<div id="id">
+
+</div>
+
+<body>
+<!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<button>click</button>
+<!--<button><< back >></button>-->
+<script>
+
+
+    var vis=d3.select("#id");
+
+    var p=vis.append("p")
+        .text("(Right) With attribute of Laber force, Co2 emissions, Foreign Direct Investment Net Flows, and Technical articles");
+    p.style("font-size","16px");
+    p.style("color","blue");
+
+
+
+    var width = 400;
+    var height = 400;
+
+
+    var container = d3.select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+
+    var padding = {left:40,right:0, top:10, bottom:30};
+
+
+    var dataset = [84, 318, 1160];
+
+
+
+    var xScale = d3.scale.ordinal()
+        .domain(d3.range(3))
+        .rangeRoundBands([0, width - padding.left - padding.right]);
+
+
+    var yScale = d3.scale.linear()
+        .domain([0,1350])
+        .range([height - padding.top - padding.bottom, 0]);
+
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom");
+
+
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left");
+
+
+    var rectPadding = 4;
+
+    var color=d3.scale.ordinal()
+        .domain(d3.range(3))
+        .range(["blue","green","orange"]);
+
+
+    var rects = container.selectAll(".MyRect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+        .attr("class","MyRect")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner
+        .attr("fill",function(d){return color(d);})
+        .attr("x", function(d,i){
+            return xScale(i) + rectPadding/2;
+        } )
+        .attr("y",function(d){
+            return yScale(d);
+        })
+        .attr("width", xScale.rangeBand() - rectPadding )
+        .attr("height", function(d){
+            return height - padding.top - padding.bottom - yScale(d);
+        });
+    //  .attr("fill",function(d){return d.Color;});
+
+
+    var texts = container.selectAll(".MyText")
+        .data(dataset)
+        .enter()
+        .append("text")
+        .attr("class","MyText")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+        .attr("x", function(d,i){
+            return xScale(i) + rectPadding;
+        } )
+        .attr("y",function(d){
+            return yScale(d);
+        })
+        .attr("dx",function(){
+            return (xScale.rangeBand() - rectPadding)/2;
+        })
+        .attr("dy",function(d){
+            return -10;
+        })
+        .text(function(d){
+            return d;
+        });
+
+
+    container.append("g")
+        .attr("class","axis")
+        .attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")
+        .call(xAxis);
+
+
+    container.append("g")
+        .attr("class","axis")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+        .call(yAxis);
+
+    var button1=d3.select("button")
+        .on("click",function(){
+
+            var vis2=d3.select("#id");
+
+            var p=vis2.append("p")
+                .text("(Right) With the attribute of GDP");
+            p.style("font-size","16px");
+            p.style("color","blue");
+
+            var container2 = d3.select("body")
+                .append("svg")
+                .attr("width", width)
+                .attr("height", height);
+
+
+            var dataset2 = [84, 318, 1160];;
+            //  var dataset2 = [32, 4, 17];
+
+
+            var xScale = d3.scale.ordinal()
+                .domain(d3.range(3))
+                .rangeRoundBands([0, width - padding.left - padding.right]);
+
+
+            var yScale = d3.scale.linear()
+                .domain([0,1350])
+                .range([height - padding.top - padding.bottom, 0]);
+
+            var xAxis = d3.svg.axis()
+                .scale(xScale)
+                .orient("bottom");
+
+
+            var yAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("left");
+            //
+            //    //矩形之间的空白
+            //    var rectPadding = 4;
+
+            var color=d3.scale.ordinal()
+                .domain(d3.range(3))
+                .range(["green","blue","orange"]);
+
+
+            var rects = container2.selectAll(".MyRect")
+                .data(dataset2)
+                .enter()
+                .append("rect")
+                .attr("class","MyRect")
+                .attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner
+                .attr("fill",function(d){return color(d);})
+                .attr("x", function(d,i){
+                    return xScale(i) + rectPadding/2;
+                } )
+                .attr("y",function(d){
+                    return yScale(d);
+                })
+                .attr("width", xScale.rangeBand() - rectPadding )
+                .attr("height", function(d){
+                    return height - padding.top - padding.bottom - yScale(d);
+                });
+            //  .attr("fill",function(d){return d.Color;});
+
+
+            var texts = container2.selectAll(".MyText")
+                .data(dataset)
+                .enter()
+                .append("text")
+                .attr("class","MyText")
+                .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+                .attr("x", function(d,i){
+                    return xScale(i) + rectPadding;
+                } )
+                .attr("y",function(d){
+                    return yScale(d);
+                })
+                .attr("dx",function(){
+                    return (xScale.rangeBand() - rectPadding)/2;
+                })
+                .attr("dy",function(d){
+                    return -10;
+                })
+                .text(function(d){
+                    return d;
+                });
+
+
+            container2.append("g")
+                .attr("class","axis")
+                .attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")
+                .call(xAxis);
+
+
+            container2.append("g")
+                .attr("class","axis")
+                .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+                .call(yAxis);
+
+
+        });
+
+
+
+</script>
+</body>
+</html>
+
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+<!--<meta charset="UTF-8">-->
+<!--<title>Bar Chart ClickMe</title>-->
+
+
+<!--</head>-->
+
+
+<!--<style>-->
+<!--.axis path,-->
+<!--.axis line{-->
+<!--fill: none;-->
+<!--stroke: black;-->
+<!--shape-rendering: crispEdges;-->
+<!--}-->
+
+<!--.axis text {-->
+<!--font-family: sans-serif;-->
+<!--font-size: 11px;-->
+<!--}-->
+
+<!--.MyRect{-->
+<!--fill: steelblue;-->
+<!--}-->
+
+<!--.MyText {-->
+<!--fill: black;-->
+<!--text-anchor:up;-->
+<!--}-->
+<!--</style>-->
+
+<!--<body>-->
+
+
+<!--<script src="//d3js.org/d3.v4.min.js"></script>-->
+<!--<svg id="barChart", width="400", height="400"></svg>-->
+<!--<button> click me to change rects</button>-->
+
+
+
+<!--<script>-->
+
+<!--var width=400;-->
+<!--var height=400;-->
+
+<!--var rectheight=25;-->
+<!--//-->
+<!--//    var svg=d3.select("body")-->
+<!--//        .append("svg")-->
+<!--//        .attr("width",width)-->
+<!--//        .attr("height",height)-->
+
+<!--var padding={left:30,right:30,top:30}-->
+
+
+<!--var dataset1= [250 , 210 , 170 ];-->
+<!--var dataset2 = [233 , 145 , 446 ];-->
+
+
+
+<!--// 以dataset1画出原图-->
+<!--d3.select("#barChart")-->
+<!--.selectAll("rect")-->
+<!--.data(dataset1)-->
+<!--.enter()enter-->
+<!--.append("rect")-->
+<!--.attr("y",20)-->
+<!--.attr("x", (d,i) => i*rectheight)-->
+<!--.attr("width", (d) => d)-->
+<!--.attr("height", rectheight-2)-->
+<!--.attr('fill',"orange");-->
+
+<!--// 给button绑定点击事件，控制切换数据-->
+<!--d3.select("button")-->
+<!--.on("click",function(){-->
+<!--d3.select("#chart")-->
+<!--.selectAll("rect")-->
+<!--.data(dataset2)-->
+<!--.transition()-->
+<!--.duration(1000)-->
+<!--.attr("width", (d) => d)-->
+<!--})-->
+
+
+
+
+
+
+
+
+
+<!--//    var rectheight = 25;-->
+<!--//-->
+<!--//    var xScale=d3.scale.ordianl()-->
+<!--//        .domain(d3.range(dataset1.length))-->
+<!--//        .rangeRoundBands([0,width-padding]);-->
+<!--//-->
+<!--//    var yScale = d3.scale.linear()-->
+<!--//        .domain([0,d3.max(dataset)])-->
+<!--//        .range([height - padding.top - padding.bottom, 0]);-->
+<!--//-->
+<!--//    var xAxis=d3.svg.axis()-->
+<!--//        .scale(xScale)-->
+<!--//        .orient("bottom");-->
+<!--//-->
+<!--//    var yAxis=d3.svg.axis()-->
+<!--//        .scale(yScale)-->
+<!--//        .orient("left");-->
+<!--//-->
+<!--//    var rectBar=svg.selectAll(".MyRect")-->
+<!--//        .data(dataset1)-->
+<!--//        .enter()-->
+<!--//        .append("rect")-->
+<!--//        .attr("class","MyRect")-->
+<!--//        .attr("transform","translate("+padding.left+","+padding.top+")")-->
+<!--//        .attr("x",function(d,i){-->
+<!--//        return xScale(i)+rectPadding/2;-->
+<!--//    })-->
+<!--//        .attr("y",function(d){return yScale(d);})-->
+<!--//        .attr("width",xScale.rangBand()-rectPadding)-->
+<!--//        .attr("height",function(d){return height-padding.top-padding.bottom-yScale(d);});-->
+<!--//-->
+<!--//    //添加x轴-->
+<!--//    svg.append("g")-->
+<!--//        .attr("class","axis")-->
+<!--//        .attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")-->
+<!--//        .call(xAxis);-->
+<!--//-->
+<!--//    //添加y轴-->
+<!--//    svg.append("g")-->
+<!--//        .attr("class","axis")-->
+<!--//        .attr("transform","translate(" + padding.left + "," + padding.top + ")")-->
+<!--//        .call(yAxis);-->
+
+<!--d3.select("button")-->
+<!--.on("click",function(){-->
+<!--d3.select("#chart")-->
+<!--.selectAll("rect")-->
+<!--.data(dataset2)-->
+<!--.transition()-->
+<!--.duration(1000)-->
+<!--.attr("height", (d) => d)-->
+<!--})-->
+
+
+<!--</script>-->
+
+<!--</body>-->
+<!--</html>-->
+
+
+
+<!--<html>-->
+<!--<head>-->
+    <!--<meta charset="utf-8">-->
+    <!--<title>ComparedBarChart</title>-->
+<!--</head>-->
+<!--<h2>k-mean clustering</h2>-->
+<!--&lt;!&ndash;<p>with attribute of Laber force,foreign direct investment net flows, technical articles, and co2 emissions </p>&ndash;&gt;-->
+
+<!--<style>-->
+    <!--.axis path,-->
+    <!--.axis line{-->
+        <!--fill: none;-->
+        <!--stroke: black;-->
+        <!--shape-rendering: crispEdges;-->
+    <!--}-->
+
+    <!--.axis text {-->
+        <!--font-family: sans-serif;-->
+        <!--font-size: 11px;-->
+    <!--}-->
+
+    <!--.MyRect {-->
+        <!--/*fill: ;*/-->
+    <!--}-->
+
+    <!--.MyText {-->
+        <!--fill: black;-->
+        <!--text-anchor: middle;-->
+    <!--}-->
+<!--</style>-->
+
+<!--<div id="id">-->
+
+<!--</div>-->
+
+<!--<body>-->
+<!--&lt;!&ndash;<script src="https://d3js.org/d3.v4.min.js"></script>&ndash;&gt;-->
+<!--<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>-->
+<!--&lt;!&ndash;<button>GDP</button>&ndash;&gt;-->
+<!--&lt;!&ndash;<button><< back >></button>&ndash;&gt;-->
+<!--<script>-->
+
+    <!--//    d3.select("button")-->
+    <!--//        .on("click",function(){-->
+    <!--//            open("http://localhost:63342/6906_project/link1.html?_ijt=6df74o0vg3pqhat2o6rbs1o03t")-->
+    <!--//-->
+    <!--//        })-->
+    <!--//-->
+    <!--//    d3.select("button")-->
+    <!--//        .on("click",function(){-->
+    <!--//            open("http://localhost:63342/6906_project/link1.html?_ijt=6df74o0vg3pqhat2o6rbs1o03t")-->
+    <!--//-->
+    <!--//        })-->
+
+
+    <!--var vis=d3.select("#id");-->
+
+    <!--var p=vis.append("p")-->
+        <!--.text("(Right) With attribute of Laber force, Co2 emissions, Foreign Direct Investment Net Flows, and Technical articles");-->
+    <!--p.style("font-size","16px");-->
+    <!--p.style("color","blue");-->
+
+
+
+    <!--var width = 400;-->
+    <!--var height = 400;-->
+
+
+    <!--var container = d3.select("body")-->
+        <!--.append("svg")-->
+        <!--.attr("width", width)-->
+        <!--.attr("height", height);-->
+
+
+    <!--var padding = {left:40,right:0, top:10, bottom:30};-->
+
+
+    <!--var dataset = [84, 318, 1160];-->
+
+
+
+    <!--var xScale = d3.scale.ordinal()-->
+        <!--.domain(d3.range(3))-->
+        <!--.rangeRoundBands([0, width - padding.left - padding.right]);-->
+
+
+    <!--var yScale = d3.scale.linear()-->
+        <!--.domain([0,1350])-->
+        <!--.range([height - padding.top - padding.bottom, 0]);-->
+
+    <!--var xAxis = d3.svg.axis()-->
+        <!--.scale(xScale)-->
+        <!--.orient("bottom");-->
+
+    <!--//定义y轴-->
+    <!--var yAxis = d3.svg.axis()-->
+        <!--.scale(yScale)-->
+        <!--.orient("left");-->
+
+    <!--//矩形之间的空白-->
+    <!--var rectPadding = 4;-->
+
+    <!--var color=d3.scale.ordinal()-->
+        <!--.domain(d3.range(3))-->
+        <!--.range(["green","blue","orange"]);-->
+
+    <!--//添加矩形元素-->
+    <!--var rects = container.selectAll(".MyRect")-->
+        <!--.data(dataset)-->
+        <!--.enter()-->
+        <!--.append("rect")-->
+        <!--.attr("class","MyRect")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner-->
+        <!--.attr("fill",function(d){return color(d);})-->
+        <!--.attr("x", function(d,i){-->
+            <!--return xScale(i) + rectPadding/2;-->
+        <!--} )-->
+        <!--.attr("y",function(d){-->
+            <!--return yScale(d);-->
+        <!--})-->
+        <!--.attr("width", xScale.rangeBand() - rectPadding )-->
+        <!--.attr("height", function(d){-->
+            <!--return height - padding.top - padding.bottom - yScale(d);-->
+        <!--});-->
+    <!--//  .attr("fill",function(d){return d.Color;});-->
+
+    <!--//添加文字元素-->
+    <!--var texts = container.selectAll(".MyText")-->
+        <!--.data(dataset)-->
+        <!--.enter()-->
+        <!--.append("text")-->
+        <!--.attr("class","MyText")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")-->
+        <!--.attr("x", function(d,i){-->
+            <!--return xScale(i) + rectPadding;-->
+        <!--} )-->
+        <!--.attr("y",function(d){-->
+            <!--return yScale(d);-->
+        <!--})-->
+        <!--.attr("dx",function(){-->
+            <!--return (xScale.rangeBand() - rectPadding)/2;-->
+        <!--})-->
+        <!--.attr("dy",function(d){-->
+            <!--return -10;-->
+        <!--})-->
+        <!--.text(function(d){-->
+            <!--return d;-->
+        <!--});-->
+
+    <!--//添加x轴-->
+    <!--container.append("g")-->
+        <!--.attr("class","axis")-->
+        <!--.attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")-->
+        <!--.call(xAxis);-->
+
+    <!--//添加y轴-->
+    <!--container.append("g")-->
+        <!--.attr("class","axis")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")-->
+        <!--.call(yAxis);-->
+
+
+    <!--// Graph 2-->
+
+    <!--var vis2=d3.select("#id");-->
+
+    <!--var p=vis2.append("p")-->
+        <!--.text("(Right) With the attribute of GDP");-->
+    <!--p.style("font-size","16px");-->
+    <!--p.style("color","blue");-->
+
+    <!--var container2 = d3.select("body")-->
+        <!--.append("svg")-->
+        <!--.attr("width", width)-->
+        <!--.attr("height", height);-->
+
+
+    <!--var dataset2 = [84, 318, 1160];;-->
+    <!--//  var dataset2 = [32, 4, 17];-->
+
+
+    <!--var xScale = d3.scale.ordinal()-->
+        <!--.domain(d3.range(3))-->
+        <!--.rangeRoundBands([0, width - padding.left - padding.right]);-->
+
+
+    <!--var yScale = d3.scale.linear()-->
+        <!--.domain([0,1350])-->
+        <!--.range([height - padding.top - padding.bottom, 0]);-->
+
+    <!--var xAxis = d3.svg.axis()-->
+        <!--.scale(xScale)-->
+        <!--.orient("bottom");-->
+
+    <!--//定义y轴-->
+    <!--var yAxis = d3.svg.axis()-->
+        <!--.scale(yScale)-->
+        <!--.orient("left");-->
+    <!--//-->
+    <!--//    //矩形之间的空白-->
+    <!--//    var rectPadding = 4;-->
+
+    <!--var color=d3.scale.ordinal()-->
+        <!--.domain(d3.range(3))-->
+        <!--.range(["green","blue","orange"]);-->
+
+    <!--//添加矩形元素-->
+    <!--var rects = container2.selectAll(".MyRect")-->
+        <!--.data(dataset2)-->
+        <!--.enter()-->
+        <!--.append("rect")-->
+        <!--.attr("class","MyRect")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner-->
+        <!--.attr("fill",function(d){return color(d);})-->
+        <!--.attr("x", function(d,i){-->
+            <!--return xScale(i) + rectPadding/2;-->
+        <!--} )-->
+        <!--.attr("y",function(d){-->
+            <!--return yScale(d);-->
+        <!--})-->
+        <!--.attr("width", xScale.rangeBand() - rectPadding )-->
+        <!--.attr("height", function(d){-->
+            <!--return height - padding.top - padding.bottom - yScale(d);-->
+        <!--});-->
+    <!--//  .attr("fill",function(d){return d.Color;});-->
+
+    <!--//添加文字元素-->
+    <!--var texts = container2.selectAll(".MyText")-->
+        <!--.data(dataset)-->
+        <!--.enter()-->
+        <!--.append("text")-->
+        <!--.attr("class","MyText")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")-->
+        <!--.attr("x", function(d,i){-->
+            <!--return xScale(i) + rectPadding;-->
+        <!--} )-->
+        <!--.attr("y",function(d){-->
+            <!--return yScale(d);-->
+        <!--})-->
+        <!--.attr("dx",function(){-->
+            <!--return (xScale.rangeBand() - rectPadding)/2;-->
+        <!--})-->
+        <!--.attr("dy",function(d){-->
+            <!--return -10;-->
+        <!--})-->
+        <!--.text(function(d){-->
+            <!--return d;-->
+        <!--});-->
+
+    <!--//添加x轴-->
+    <!--container2.append("g")-->
+        <!--.attr("class","axis")-->
+        <!--.attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")-->
+        <!--.call(xAxis);-->
+
+    <!--//添加y轴-->
+    <!--container2.append("g")-->
+        <!--.attr("class","axis")-->
+        <!--.attr("transform","translate(" + padding.left + "," + padding.top + ")")-->
+        <!--.call(yAxis);-->
+
+

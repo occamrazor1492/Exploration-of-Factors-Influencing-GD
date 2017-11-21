@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomePage</title>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+    <h2>K-mean clustering </h2>
+    <p>     >>  Unsupervised Learning to cluster datasets</p>
+    <p>     >>  Set the value of k as 3</p>
+    <p>     >>  Explore the similarity of clusters among different combinations of attributes</p>
+
+</head>
+
+
+<body>
+<!--<button>Selected 4 Attrs</button>-->
+
+<button id="button4">About DataSet</button>
+
+
+<button id="button2">Single Attrs</button>
+
+<button id="button1">Multiple Attrs</button>
+
+<button id="buttonC1">Compare</button>
+
+<!--<button>CO2</button>-->
+
+<button id="button3">Selected 4 Attrs</button>
+
+<!--<button>GDP</button>-->
+
+<button id="buttonBack"><< Back >></button>
+
+
+<script>
+
+
+//    d3.select("body")
+//        .append("g")
+//        .style("color","black")
+//        .text("K-mean clustering");
+
+
+//
+//
+//var button4= d3.selectAll("button")
+//        .on("click",function(){
+//           open(src="gdp.html")
+//
+//        });
+//
+
+d3.select("#button4")
+
+    .on("click",function(){
+        open(src="AboutData.html");
+    });
+
+d3.select("#buttonC1")
+    .on("click",function () {
+        open(src="compare4.html");
+
+    });
+d3.select("#buttonBack")
+    .on("click",function(){
+
+        open(src="page-1.html")
+
+    });
+
+
+var button3=d3.select("#button3")
+    .on("click",function(){
+
+        open(src="4Attrs.html")
+
+    });
+
+var button2= d3.select("#button2")
+    .on("click",function(){
+        open(src="SingleAttrList.html")
+
+    });
+
+var button1=d3.select("#button1")
+    .on("click",function(){
+
+        open(src="9Attrs.html")
+
+    });
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,173 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>with4</title>
+</head>
+<h2>k-mean clustering</h2>
+<!--<p>with attribute of Laber force,foreign direct investment net flows, technical articles, and co2 emissions </p>-->
+
+<style>
+    .axis path,
+    .axis line{
+        fill: none;
+        stroke: black;
+        shape-rendering: crispEdges;
+    }
+
+    .axis text {
+        font-family: sans-serif;
+        font-size: 11px;
+    }
+
+    .MyRect {
+        /*fill: ;*/
+    }
+
+    .MyText {
+        fill: black;
+        text-anchor: middle;
+    }
+</style>
+
+<div id="id">
+
+</div>
+
+<body>
+<!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<button id="buttonC1">Compare</button>
+<button id="buttonBack"><< Back >></button>
+<script>
+
+    d3.select("#buttonC1")
+        .on("click",function(){
+            open(src="comparedBarChart_main.html")
+
+
+    });
+
+    d3.select("#buttonBack")
+        .on("click",function(){
+            open(src="page-1.html")
+
+        });
+
+//    d3.select("button")
+//        .on("click",function(){
+//            open(src="presentation-1.html")
+//
+//        });
+
+
+    var vis=d3.select("#id");
+
+    var p=vis.append("p")
+        .text("With attribute of Laber force, Co2 emissions, Foreign Direct Investment Net Flows, and Technical articles");
+    p.style("font-size","16px");
+    p.style("color","blue");
+
+
+
+    var width = 500;
+    var height = 500;
+
+
+    var container = d3.select("body")
+        .append("svg")
+        .attr("width", width)
+        .attr("height", height);
+
+
+    var padding = {left:40,right:0, top:10, bottom:30};
+
+
+    var dataset = [84, 318, 1160];
+    var dataset2 = [32, 4, 17];
+
+
+    var xScale = d3.scale.ordinal()
+        .domain(d3.range(3))
+        .rangeRoundBands([0, width - padding.left - padding.right]);
+
+
+    var yScale = d3.scale.linear()
+        .domain([0,1562])
+        .range([height - padding.top - padding.bottom, 0]);
+
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom");
+
+
+    var yAxis = d3.svg.axis()
+        .scale(yScale)
+        .orient("left");
+
+    //矩形之间的空白
+    var rectPadding = 4;
+
+    var color=d3.scale.ordinal()
+        .domain(d3.range(3))
+        .range(["green","blue","orange"]);
+
+
+    var rects = container.selectAll(".MyRect")
+        .data(dataset)
+        .enter()
+        .append("rect")
+        .attr("class","MyRect")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner
+        .attr("fill",function(d){return color(d);})
+        .attr("x", function(d,i){
+            return xScale(i) + rectPadding/2;
+        } )
+        .attr("y",function(d){
+            return yScale(d);
+        })
+        .attr("width", xScale.rangeBand() - rectPadding )
+        .attr("height", function(d){
+            return height - padding.top - padding.bottom - yScale(d);
+        });
+    //  .attr("fill",function(d){return d.Color;});
+
+
+    var texts = container.selectAll(".MyText")
+        .data(dataset)
+        .enter()
+        .append("text")
+        .attr("class","MyText")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+        .attr("x", function(d,i){
+            return xScale(i) + rectPadding;
+        } )
+        .attr("y",function(d){
+            return yScale(d);
+        })
+        .attr("dx",function(){
+            return (xScale.rangeBand() - rectPadding)/2;
+        })
+        .attr("dy",function(d){
+            return -10;
+        })
+        .text(function(d){
+            return d;
+        });
+
+
+    container.append("g")
+        .attr("class","axis")
+        .attr("transform","translate(" + padding.left + "," + (height - padding.bottom) + ")")
+        .call(xAxis);
+
+
+    container.append("g")
+        .attr("class","axis")
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")
+        .call(yAxis);
+
+
+</script>
+</body>
+</html>
+
