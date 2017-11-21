@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>CSCI6906 Final Project</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-light bg-light static-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">MICA_GDP</a>
+        <!--<a class="btn btn-info" href="bundleChart.html">Sign In</a>-->
+      </div>
+    </nav>
+
+    <!-- Masthead -->
+    <header class="masthead text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+
+            <h1 class="mb-5">What factors affect GDP?</h1>
+            <h3 class="mb-5">Foreign direct investment net inflows</h3>
+            <h3 class="mb-5">Technical articles</h3>
+            <h3 class="mb-5">CO2 Emission</h3>
+            <h3 class="mb-5">Label force</h3>
+            <h3 class="mb-5">...</h3>
+
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <!--<form>-->
+              <!--<div class="form-row">-->
+                <!--<div class="col-12 col-md-9 mb-2 mb-md-0">-->
+                  <!--<input type="email" class="form-control form-control-lg" placeholder="Enter your email...">-->
+                <!--</div>-->
+                <!--<div class="col-12 col-md-3">-->
+                  <!--<button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>-->
+                <!--</div>-->
+              <!--</div>-->
+            <!--</form>-->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Image Showcases1 -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/mapSmall.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>Regressor distribution for different country</h2>
+            <p class="lead mb-0">The map chart shows each regressor distribution for selected year</p>
+            <br><a class="btn btn-info" href="world%20map%20of%20all%20regressors/index.html">View detail</a>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/investmentSmall.png');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Foreign direct investment</h2>
+            <p class="lead mb-0">This stack bar chart shows Foreign direct investment since 2004 to 2014, net inflows (BoP, current US$)</p><br>
+            <a class="btn btn-info" href="img/foreignInvestment.png">View detail</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Icons Grid -->
+    <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <!--<i class="icon-screen-desktop m-auto text-primary"></i>-->
+                <i class = "icon-pencil m-auto text-primary"></i>
+              </div>
+              <h3>Data Pre-processing</h3>
+              <p class="lead mb-0">We use python in Spyder to finish this process</p>
+              <br><a class="btn btn-primary" href="img/data_preprocessingPre.pdf">View detail</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-compass m-auto text-primary"></i>
+              </div>
+              <h3>Unsupervised leaning: k-mean</h3>
+              <p class="lead mb-0">In order to explore the relationships between attributes, we choose to use k-mean method, taking k=3, to cluster datafile.</p>
+              <br><a class="btn btn-primary" href="bundleChart.html">View detail</a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-diamond m-auto text-primary"></i>
+              </div>
+              <h3>Data Mining: Regression</h3>
+              <p class="lead mb-0">We use regression as our main task. In this part, we use linear and non-linear regression with panel data</p>
+              <br><a class="btn btn-primary" href="img/fangyeDataMining.jpg">View detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Image Showcases -->
+    <section class="showcase">
+      <div class="container-fluid p-0">
+        <!--<div class="row no-gutters">-->
+
+          <!--<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/estimationSmall.png');"></div>-->
+          <!--<div class="col-lg-6 order-lg-1 my-auto showcase-text">-->
+            <!--<h2>Correction between read data and our estimation</h2>-->
+            <!--<p class="lead mb-0">Red point represent real data 390 (test set, split by 0.25), Blue point represent estimation, the result is good, almost match with our estimation. The coefficient of determination is 98.68%. </p><br>-->
+            <!--<a class="btn btn-info" href="img/estimation.png">View detail</a>-->
+          <!--</div>-->
+
+        <!--</div>-->
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/estimationSmall.png');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>Correction between read data and our estimation</h2>
+            <p class="lead mb-0">Red point represent real data 390 (test set, split by 0.25), Blue point represent estimation, the result is good, almost match with our estimation. The coefficient of determination is 98.68%.</p>
+            <br><a class="btn btn-info" href="img/estimation.png">View detail</a>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/chrodSmall.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>How regressors relate to each other?</h2>
+            <p class="lead mb-0">The chord chart shows how regressors relate tp each other, </p>
+            <br><a class="btn btn-info" href="ResultChordChart.html">View detail</a>
+          </div>
+        </div>
+        <!--<div class="row no-gutters">-->
+          <!--<div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/resultPieChart.png');"></div>-->
+          <!--<div class="col-lg-6 order-lg-1 my-auto showcase-text">-->
+            <!--<h2>How regressors contribute to GDP?</h2>-->
+            <!--<p class="lead mb-0">This pie chart shows how four regressors: CO2 emission, Foreign direct investment, Technical articles, Label force.</p><br>-->
+            <!--<a class="btn btn-info" href="resultPieChart.html">View detail</a>-->
+          <!--</div>-->
+        <!--</div>-->
+        <div class="row no-gutters">
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/resultPieChart.png');"></div>
+          <div class="col-lg-6 my-auto showcase-text">
+            <h2>How regressors contribute to GDP?</h2>
+            <p class="lead mb-0">This pie chart shows how four regressors: CO2 emission, Foreign direct investment, Technical articles, Label force.</p>
+            <br><a class="btn btn-info" href="resultPieChart.html">View detail</a>
+          </div>
+        </div>
+        <div class="row no-gutters">
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/smallBundle.png');"></div>
+          <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+            <h2>How unselected regressors(6) relate to selected regressors(4)</h2>
+            <p class="lead mb-0">This bundle chart shows how unselected regressors(6) relate to selected regressors(4)</p>
+            <br><a class="btn btn-info" href="bundleChart.html">View detail</a>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials text-center bg-light">
+      <div class="container">
+        <h2 class="mb-5">Team Mica</h2>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <!--<img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="">-->
+              <h5>Ziyun Zhong</h5>
+              <p class="font-weight-light mb-0">ziyun.zhong@dal.ca</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <!--<img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">-->
+              <h5>Fangye Tang</h5>
+              <p class="font-weight-light mb-0">fn494795@dal.ca</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <!--<img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="">-->
+              <h5>Jingya Sun</h5>
+              <p class="font-weight-light mb-0">jn784780@dal.ca</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+              <!--<img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="">-->
+              <h5>Yunfei Guo</h5>
+              <p class="font-weight-light mb-0">yn674844@dal.ca</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="call-to-action text-white text-center">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Subscribe our update!</h2>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form>
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
+                </div>
+                <div class="col-12 col-md-3">
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Subscribe</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class="text-muted small mb-4 mb-lg-0">&copy;Bootstrap</p>
+          </div>
+          <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item mr-3">
+                <a href="#">
+                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="#">
+                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>world map</title>
+    <meta charset="utf-8">
+
+
+    <style>
+
+        .names {
+            fill: none;
+            stroke: #fff;
+            stroke-linejoin: round;
+        }
+        /* Tooltip CSS */
+        
+        .d3-tip {
+            line-height: 1.5;
+            font-weight: 400;
+            font-family: "avenir next", Arial, sans-serif;
+            padding: 6px;
+            background: rgba(0, 0, 0, 0.6);
+            color: #FFA500;
+            border-radius: 1px;
+            pointer-events: none;
+        }
+        /* Creates a small triangle extender for the tooltip */
+        
+        .d3-tip:after {
+            box-sizing: border-box;
+            display: inline;
+            font-size: 8px;
+            width: 100%;
+            line-height: 1.5;
+            color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            pointer-events: none;
+        }
+        /* Northward tooltips */
+        
+        .d3-tip.n:after {
+            content: "\25BC";
+            margin: -1px 0 0 0;
+            top: 100%;
+            left: 0;
+            text-align: center;
+        }
+        /* Eastward tooltips */
+        
+        .d3-tip.e:after {
+            content: "\25C0";
+            margin: -4px 0 0 0;
+            top: 50%;
+            left: -8px;
+        }
+        /* Southward tooltips */
+        
+        .d3-tip.s:after {
+            content: "\25B2";
+            margin: 0 0 1px 0;
+            top: -8px;
+            left: 0;
+            text-align: center;
+        }
+        /* Westward tooltips */
+        
+        .d3-tip.w:after {
+            content: "\25B6";
+            margin: -4px 0 0 -1px;
+            top: 50%;
+            left: 100%;
+        }
+        /*    text{
+      pointer-events:none;
+    }*/
+        
+        .details {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="http://d3js.org/d3.v4.min.js"></script>
+    <script src="http://d3js.org/queue.v1.min.js"></script>
+    <script src="http://d3js.org/topojson.v1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="d3-tip.js"></script>
+    <script>
+
+        var format = d3.format(",");
+
+        /// add attributes selections;
+        var regressors = ['GDP','Technical articles',
+            'Commerical bank branches','Time required to start a business', 'Labor force', 'Internet users',
+            'Mobile cellular subscriptions','Unemployment rate',
+             'Life expantancy'];
+
+        var selectRegressor = d3.select('body')
+            .append('select')
+            .attr('class', 'regressor')
+            .attr('text-align-last', 'center')
+            //.attr('text-align','center')
+            .on('change', onchangeRegressor);
+
+        var RegressorOption = selectRegressor.selectAll('option')
+            .data(regressors)
+            .enter()
+            .append('option')
+            .text(function(d){
+                return d;
+            });
+        // add select option
+        // for all years
+        var all_years = [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014];
+        var select = d3.select('body')
+            .append('select')
+            .attr('class', 'year')
+            .on('change', onchange);
+
+        var options = select.selectAll('option')
+            .data(all_years)
+            .enter()
+            .append('option')
+            .text(function(d){
+                return d;
+            });
+
+        var current_year = 2004;
+        var current_regressor = 'GDP';
+        // add heading for each map
+        var header = d3.select('body').append('h1')
+            .attr('align',"center")
+            .attr("id","header")
+            .text(function(d){
+                return current_regressor+' distribution for different country of year '+current_year;
+            });
+
+        // when change the regressor;
+        function onchangeRegressor(){
+            current_regressor = d3.select('select.regressor').property('value');
+            d3.select('#header')
+                .text(function(d){
+                    return current_regressor+' distribution for different country of year '+ current_year ;
+                });
+            //
+            // un-display the previous map;
+            d3.select('g.countries')
+                .style('display','none');
+            //display the new map;
+            queue()
+                .defer(d3.json, "world_countries.json")
+                .defer(d3.csv, current_regressor+".csv")
+                .await(ready);
+        }
+        // when change the year;
+        function onchange(){
+            current_year = d3.select('select.year').property('value');
+            // change header
+            d3.select('#header')
+                .text(function(d){
+                    return current_regressor+' distribution for different country of year ' + current_year;
+                });
+            // un-display the previous map;
+            d3.select('g.countries')
+                .style('display','none');
+            //display the new map;
+            queue()
+                .defer(d3.json, "world_countries.json")
+                .defer(d3.csv, current_regressor+".csv")
+                .await(ready);
+        }
+
+        // Set tooltips
+
+        var tip = d3.tip()
+            .attr('class', 'd3-tip')
+            .offset([-10, 0])
+            .html(function(d) {
+                return "<strong>Country: </strong><span class='details'>" + d.properties.name + "<br></span>" + "<strong>"+current_regressor+": </strong><span class='details'>" + format(d.coutry_attribute) + "</span>";
+            })
+
+        var margin = {
+                top: 0,
+                right: 0,
+                bottom: 0,
+                left: 0
+            },
+            width = 950 - margin.left - margin.right,
+            height = 500 - margin.top - margin.bottom;
+
+        // set color for each regressor
+        var regressorColor = {
+            "GDP" : ["#C4C4FF", "#0009FF"],
+            "Technical articles" : ["#FFD4FF", "#FF04E2"],
+            "Commerical bank branches" : ["#C4C4FF", "#0009FF"],
+            "Time required to start a business" : ["#defffd", "#00f4ff"],
+            "Labor force" : ["#ffd9d2", "#ff000a"],
+            "Internet users" : ["#bbffb9", "#13ff00"],
+            "Mobile cellular subscriptions" : ["#ffa798", "#ff0029"],
+            "Unemployment rate" : ["#ffd7f0", "#ff00e5"],
+            "Life expantancy" : ["#ffe9d2", "#ff0000"]
+        };
+
+
+        var path = d3.geoPath();
+
+        var svg = d3.select("body")
+            .append("svg")
+            .attr("width", width)
+            .attr("height", height)
+            .append('g')
+            .attr('class', 'map')
+            .attr('transform','translate(100, 50)');
+
+
+        var projection = d3.geoMercator()
+            .scale(130)
+            .translate([width / 2, height / 1.5]);
+
+        var path = d3.geoPath().projection(projection);
+
+        svg.call(tip);
+
+//        load data
+        // let user choose the attribute and year
+
+
+        queue()
+            .defer(d3.json, "world_countries.json")
+            .defer(d3.csv, ""+current_regressor+".csv")
+            .await(ready);
+
+        function ready(error, data, coutry_attribute) {
+
+
+            var coutry_attributeById = {};
+            //console.log(data);
+           // console.log(coutry_attribute.length);
+
+            // data is the world map;
+            // coutry_attribute is the "world_coutry_attribute.csv"
+           // get all values for the specific year;
+            var all_values = [];
+
+            coutry_attribute.forEach(function(d) {
+                //var selected_year = 'YR' + current_year;
+
+                coutry_attributeById[d.id] = +d['YR' + current_year];
+
+                all_values.push(+d['YR' + current_year]);
+                //console.log(coutry_attributeById[d.id]);
+            });
+
+            if(current_regressor == 'GDP' || current_regressor == 'Labor force'){
+                //console.log("this is gdo");
+                var maxInput = Math.log2(d3.max(all_values));
+                var minInput = Math.log2(d3.min(all_values));
+            }else{
+                var maxInput = d3.max(all_values);
+                var minInput = d3.min(all_values);
+            }
+
+            var rangeColor = d3.scaleLinear()
+                .domain([minInput, maxInput])
+                .range([regressorColor[current_regressor][0], regressorColor[current_regressor][1]])
+                .interpolate(d3.interpolateHcl);
+
+
+            data.features.forEach(function(d) {
+                d.coutry_attribute = coutry_attributeById[d.id]
+
+            });
+
+            svg.append("g")
+                .attr("class", "countries")
+                .selectAll("path")
+                .data(data.features)
+                .enter().append("path")
+                .attr("d", path)
+                .style("fill", function(d) {
+
+                   if(d.coutry_attribute == undefined){
+                       //console.log("this is undefined");
+                       return rangeColor(minInput);
+                   }
+
+                    if(current_regressor == 'GDP' || current_regressor == 'Labor force'){
+
+                        var calculate_value = Math.log2(coutry_attributeById[d.id]);
+
+                        return rangeColor(calculate_value);
+                    }else{
+                        var calculate_value = coutry_attributeById[d.id];
+
+                        return rangeColor(calculate_value);
+                    }
+
+
+
+                })
+                .style('stroke', 'white')
+                .style('stroke-width', 1.5)
+                .style("opacity", 0.8)
+                // tooltips
+                .style("stroke", "white")
+                .style('stroke-width', 0.3)
+                .on('mouseover', function(d) {
+                    tip.show(d);
+
+                    d3.select(this)
+                        .style("opacity", 1)
+                        .style("stroke", "white")
+                        .style("stroke-width", 3);
+                })
+                .on('mouseout', function(d) {
+                    tip.hide(d);
+
+                    d3.select(this)
+                        .style("opacity", 0.8)
+                        .style("stroke", "white")
+                        .style("stroke-width", 0.3);
+                });
+
+            svg.append("path")
+                .datum(topojson.mesh(data.features, function(a, b) {
+                    return a.id !== b.id;
+                }))
+                // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
+                .attr("class", "names")
+                .attr("d", path);
+
+            // add legend
+            var legendRectSize = 18;
+            var legendSpacing = 4;
+            // set the color domain()
+            var setLegends = [1,2,3,4,5,6,7,8,9];
+
+             var legend = d3.select('svg')
+                .append('g')
+                .attr('class','legends')
+                .selectAll('.legend')
+                .data(setLegends)
+                .enter()
+                .append('g')
+                .attr('class', 'legend')
+                .attr('transform', 'translate(-400,300)');
+
+            legend.append('rect')
+                .attr('width', legendRectSize)
+                .attr('height', legendRectSize)
+                .attr('x', function(d,i){
+                    return 500;
+                })
+                .attr('y', function(d,i){
+                    return i * 20;
+                })
+                .style('fill', function(d,i){
+
+                    console.log(minInput + (maxInput-minInput)/(setLegends.length) * d );
+
+                    return rangeColor(minInput + (maxInput-minInput)/(setLegends.length) * d );
+                })
+                .style('stroke', function(d,i){
+                return rangeColor(minInput + (maxInput-minInput)/(setLegends.length) * d );
+            });
+
+            legend.append('text')
+                .attr('x', function(d,i){
+                    return 530;
+                })
+                .attr('y', function(d,i){
+                    return i * 20 + 15;
+                })
+                .text(function(d,i){
+                    if(d == 1){
+                        return "Small";
+                    }
+                    if(d == 9){
+                        return "Large";
+                    }
+
+                });
+
+        }
+
+
+    </script>
+
+</body>
+
+</html>

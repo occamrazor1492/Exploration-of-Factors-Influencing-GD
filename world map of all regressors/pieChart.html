@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <script src="//d3plus.org/js/d3.js"></script>
+    <script src="//d3plus.org/js/d3plus.js"></script>
+    <title>Pie Chart of CO2 emissions</title>
+</head>
+<body>
+
+    <h2 align="center">CO2 emissions for different areas of selected year:  <select></select></h2>
+
+
+    <script>
+
+        // for all years
+        var all_years = [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014];
+
+
+
+        var select = d3.select('select')
+            //.append('select')
+            .attr('class', 'year')
+            .on('change', onchange);
+
+        var options = select.selectAll('option')
+            .data(all_years)
+            .enter()
+            .append('option')
+            .text(function(d){
+                return d;
+            });
+
+        var current_year = 2004;
+        function make_viz3(data, current_year){
+            // create one div for current year
+            d3.select("body")
+                .append("div")
+                .attr("id", "YR"+ current_year);
+
+            var current_val = [];
+            data.forEach(function(d){
+                // console.log(d['YR' + current_year]);
+                current_val.push(d['YR' + current_year])
+            });
+
+            var j = -1;
+            var visualization = d3plus.viz()
+                .container("#YR"+current_year+"")
+                .data(data)
+                .type("pie")
+                .id("name")
+                .size(function(d,i){
+                    j = j + 1;
+                    // convert string to number
+                    return Number(current_val[j]);
+                })
+                .draw()
+        }
+        // read data from the csv
+        var load_data = '';
+        d3.csv("CO2_emissions.csv", function (error, data) {
+            // data is the array, include all the objects;
+            load_data = data;
+
+            make_viz3(load_data, current_year);
+
+        });
+
+        function onchange(){
+            // hide the previous pie chart
+            // remove the previous pie chart
+
+            d3.select("div#YR"+current_year+"")
+                .remove();
+                //.style("display", "none");
+
+            current_year = d3.select('select.year').property('value');
+
+            make_viz3(load_data, current_year);
+
+
+        };
+        //
+        d3.select("div#viz")
+            .attr("width", 400)
+            .attr("height", 200);
+        d3.select("svg#d3plus")
+            .attr("width", 600)
+            .attr("height", 300);
+
+    </script>
+
+</body>
+</html>

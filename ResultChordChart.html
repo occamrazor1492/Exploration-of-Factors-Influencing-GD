@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>弦图</title>
+    <style>
+        body{
+            background-color: #FFFFFF;
+        }
+    </style>
+
+    <h1>Chord chart between GDP and regressors</h1>
+
+</head>
+
+<body>
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+    var city_name = ["GDP","CO2","FIN","LF","TA"];
+    var population = [
+        [0,0.0093675,0.0785647,0.012377,0.9124337],
+        [0.665373,0,0,0.3272976,0],
+        [0.7935714,0,0,0.0430917,0.1656963],
+        [0.4139244,0.1541013,0.142673,0,0.4495236],
+        [0.9653762,0.0071187,0.017356,0.0142214,0]
+    ];
+
+    var chord_layout = d3.layout.chord()
+        .padding (0.03)//取得或设置弦片段间的角填充,也就是每一个弦片段的间距啦
+        .sortSubgroups(d3.descending)
+        .matrix(population); // 取得或设置布局需要的关联矩阵数据
+
+    var width = 800,
+        height = 800;
+    var innerRadius = width/2*0.7,
+        outerRadius = innerRadius*1.1;
+    var color = d3.scale.category20();
+
+    var svg = d3.select("body").append("svg")
+        .attr("width",width+500)
+        .attr("height",height)
+        .append("g")
+        .attr("transform","translate("+(width/2)+","+height/2+")");
+
+    var outer_arc = d3.svg.arc()
+        .innerRadius(innerRadius)
+        .outerRadius(outerRadius);
+
+    var g_outer = svg.append("g");
+    g_outer.selectAll("path")
+        .data(chord_layout.groups) //返回index（行索引）、subindex（列索引）、startAngle、endAngle、value
+        .enter()
+        .append("path")
+        .style("fill", function (d) {
+                return color(d.index)
+            }
+        )
+        .style("stroke", function (d) {
+            return color(d.index)
+        })
+        .attr("d",outer_arc);
+
+    g_outer.selectAll("text")
+        .data(chord_layout.groups)
+        .enter()
+        .append("text")
+        .each(function(d,i){
+            d.angle = (d.startAngle+ d.endAngle)/2;
+            d.name = city_name[i];
+        }) //表示对于任何一个绑定的元素，都执行后面的无名函数 function 的代码，这里的代码为： 计算一个角度，赋值给 d.angle ;获取城市的名称。
+        .attr("dy",".35em")
+        .attr("transform",function(d){
+            return "rotate("+(d.angle*180/Math.PI)+")"+"translate(0,"+-1.0*(outerRadius+10)+")"+((d.angle>Math.PI*3/4 && d.angle<Math.PI*5/4)?"rotate(180)":"");
+        })//在用 transform 进行位移时，要注意转换的顺序： rotate -> translate,最后一行转换代码表示：当角度在135°到225°之间时，旋转180°。否则下方的文字是倒的，不利于观看。
+        .text(function(d){return d.name;})
+        .style("stroke","black");
+
+    var inner_chord = d3.svg.chord()
+        .radius(innerRadius);
+
+//    svg.append("g")
+//        .append("text")
+//        .text("Chord char between GDP and regressors")
+//        .attr("transform","translate(-200,-350)")
+//        .attr("dy",".35em");
+
+
+    svg.append("g")
+        .append("text")
+        .text("CO2=CO2 emissions")
+        .attr("transform","translate(400,-350)");
+    svg.append("g")
+        .append("text")
+        .text("FIN=Foreign direct investment net inflow")
+        .attr("transform","translate(400,-300)");
+    svg.append("g")
+        .append("text")
+        .text("LF=labor force")
+        .attr("transform","translate(400,-250)");
+    svg.append("g")
+        .append("text")
+        .text("TA=technical articles")
+        .attr("transform","translate(400,-200)");
+
+    svg.append("g")
+        .attr("class","chord")
+        .selectAll("path")
+        .data(chord_layout.chords) //返回index（行索引）、subindex（列索引）、startAngle、endAngle、value等参数
+        .enter()
+        .append("path")
+        .attr("d",inner_chord)
+        .style("fill", function(d) { return color(d.source.index); })
+        .style("opacity",0.5)
+        .on("mouseover",function(d,i){
+            d3.select(this)
+                .style("fill","red");
+        })
+        .on("mouseout",function(d,i){
+            d3.select(this)
+                .transition()
+                .duration(1000)
+                .style("fill",color(d.source.index))
+        })
+</script>
+</body>
+</html>

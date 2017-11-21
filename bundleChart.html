@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>捆图</title>
+    <style>
+        body{
+            background-color: #FFFFFF;
+        }
+
+        .node circle {
+            stroke: #ffff;
+            stroke-width: 2px;
+        }
+
+        .node text{
+            font-size: 30px;
+            font-family: simsun;
+        }
+
+        .link {
+            fill: none;
+            stroke: black;
+            stroke-opacity: .5;
+            stroke-width: 8px;
+        }
+
+    </style>
+    <h1>Relation between 4 selected regressor and other 6 unselected regressor  </h1>
+
+</head>
+<body>
+<script src="https://d3js.org/d3.v3.min.js"></script>
+<script>
+
+    var width  = 1450;	//SVG绘制区域的宽度
+    var height = 800;	//SVG绘制区域的高度
+
+    var svg = d3.select("body")			//选择<body>
+        .append("svg")			//在<body>中添加<svg>
+        .attr("width", width)	//设定<svg>的宽度属性
+        .attr("height", height);//设定<svg>的高度属性
+
+
+    //1. 确定初始数据
+    var vertex = {
+        name: "",
+        children:[
+            {name: "CO2 emission"},{name: "Foreign direct investment net inflows"},{name: "Commercial bank branches"},
+            {name: "Time required to start a bossiness"},{name: "labor force"},{name: "Internet users"},
+            {name: "Life expectancy"},{name: "Mobile cellular subscriptions"},{name: "Unemployment rate"},{name: "Technical articles"}
+        ]
+    };
+
+    var edges = [
+        {source: "CO2 emission", target: "Unemployment rate"},
+        {source: "Foreign direct investment net inflows", target: "Commercial bank branches"},
+        {source: "Foreign direct investment net inflows", target: "Life expectancy"},
+        {source: "Foreign direct investment net inflows", target: "Mobile cellular subscriptions"},
+        {source: "Foreign direct investment net inflows", target: "Time required to start a bossiness"},
+        {source: "Foreign direct investment net inflows", target: "Unemployment rate"},
+        {source: "Foreign direct investment net inflows", target: "Internet users"},
+        {source: "labor force", target: "Commercial bank branches"},
+        {source: "labor force", target: "Internet users"},
+        {source: "labor force", target: "Mobile cellular subscriptions"},
+        {source: "Technical articles", target: "Commercial bank branches"},
+        {source: "Technical articles", target: "Internet users"},
+        {source: "Technical articles", target: "Life expectancy"},
+        {source: "Technical articles", target: "Mobile cellular subscriptions"},
+        {source: "Technical articles", target: "Time required to start a bossiness"},
+        {source: "Technical articles", target: "Unemployment rate"}
+    ];
+
+    var Zoom_data = 400;//这个值可以调节图的大小
+    //2. 转换数据
+    var cluster = d3.layout.cluster()
+        .size([360, width/2 - Zoom_data])
+        .separation(function(a, b) { return (a.parent == b.parent ? 1 : 2) / a.depth; });
+
+    var bundle = d3.layout.bundle();
+
+    //数据接口
+    var nodes = cluster.nodes(vertex);
+    var oLinks = map(nodes, edges);
+
+    var links = bundle(oLinks);
+
+    //将links中的source和target由名称替换成节点
+    function map( nodes, links ){
+        var hash = [];
+        for(var i = 0; i < nodes.length; i++){
+            hash[nodes[i].name] = nodes[i];
+        }
+        var resultLinks = [];
+        for(var j = 0; j < links.length; j++){
+            resultLinks.push({  source: hash[ links[j].source ],
+                target: hash[ links[j].target ]
+            });
+        }
+        return resultLinks;
+    }
+
+    //3. 绘图
+    var line = d3.svg.line.radial()
+        .interpolate("bundle")
+        .tension(.85)
+        .radius(function(d) { return d.y; })
+        .angle(function(d) { return d.x / 180 * Math.PI; });
+
+    gBundle = svg.append("g")
+        .attr("transform", "translate(" + (width/2) + "," + (height/2) + ")");
+
+    var color = d3.scale.category20c();
+
+    var link = gBundle.selectAll(".link")
+        .data(links)
+        .enter()
+        .append("path")
+        .attr("class", "link")
+        .attr("d", line);	//使用线段生成器
+
+
+    var node = gBundle.selectAll(".node")
+        .data( nodes.filter(function(d) { return !d.children; }) )
+        .enter()
+        .append("g")
+        .attr("class", "node")
+        .attr("transform", function(d) {
+            return "rotate(" + (d.x- 90) + ")translate(" + d.y + ")" + "rotate("+ (90 - d.x) +")";
+        });
+
+    node.append("circle")
+        .attr("r", 70)
+        .style("fill",function(d,i){ return color(i); });
+
+    node.append("text")
+        .attr("dy",".2em")
+        .style("text-anchor", "middle")
+        .text(function(d) { return d.name; });
+
+</script>
+
+</body>
+</html>
