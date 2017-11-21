@@ -5,7 +5,7 @@
 
 ## Preview
 
-[![Landing Page Preview](https://i.imgur.com/zMTH1BT.png)]
+![Landing Page Preview](https://i.imgur.com/zMTH1BT.png)
 
 **[View Live Preview](http://acewatch.com))**
 
