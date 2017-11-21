@@ -5,7 +5,7 @@
 
 ## Preview
 
-[![Landing Page Preview](https://imgur.com/a/5Onot) (https://imgur.com/a/qCOXg)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
+[![Landing Page Preview](https://i.imgur.com/zMTH1BT.png) (https://i.imgur.com/hWfRbyx.png)](https://blackrockdigital.github.io/startbootstrap-landing-page/)
 
 **[View Live Preview](https://)**
 
