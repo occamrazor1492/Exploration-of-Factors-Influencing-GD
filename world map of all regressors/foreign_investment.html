@@ -1,0 +1,272 @@
+	<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Foreign Investment</title>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+		<style type="text/css">
+
+		html, body, * {
+			font-family: Arial, sans-serif;
+			text-align: center;
+			font-size: 14px;
+		}
+
+		div#title {
+			width: 880px;
+			margin: 10px auto 0;
+			padding: 5px 20px;
+			background-color: grey;
+			border: 1px solid grey;
+			color: white;
+			box-shadow: 3px 0px 3px lightgrey;
+		}
+
+		h1 {
+			font-family: Georgia, serif;
+			font-size: 1.4em;
+			letter-spacing: 1px;
+			margin: 0 auto;
+		}
+
+		h2 {
+			font-size: .8em;
+			font-weight:100;
+			margin: .3em auto;
+		}
+
+		div#chart {
+			width:920px;
+			margin: 0 auto 1em;
+			border: 1px solid grey;
+			box-shadow: 3px 3px 3px lightgrey;
+		}
+
+		.bar.positive {
+			fill: #9efaff;
+		}
+
+		.bar.negative {
+			fill: #baff7f;
+		}
+
+
+		.axis path,
+		.axis line {
+			fill: none;
+			stroke: #000;
+			shape-rendering: crispEdges;
+		}
+
+		path.domain {
+			stroke:none;
+		}
+
+	</style>
+	</head>
+	<body>
+
+		<div id="title">
+			<h1>
+				Foreign direct investment of each country for selected year. <span id="select"></span>
+			</h1>
+			<h2>Time period: 2004-2014 | Hover your cursor over bar to get exact figures</h2>
+		</div>
+		<div id="chart">
+
+		</div>
+
+		<script>
+
+			var margin = {
+				top: 10,
+				right: 10,
+				bottom: 20,
+				left: 30
+			},
+			width = 920 - margin.left - margin.right,
+			height = 400 - margin.top - margin.bottom;
+
+			var y = d3.scale.linear()
+			.range([height, 0]);
+
+			var x = d3.scale.ordinal()
+			.rangeRoundBands([0, width], .2);
+
+
+
+
+			var yAxis = d3.svg.axis()
+			.scale(y)
+			.orient("left");
+
+			var svg = d3.select("#chart").append("svg")
+			.attr("width", width + margin.left + margin.right)
+			.attr("height", height + margin.top + margin.bottom)
+			.append("g")
+			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+
+			d3.csv("foreignInvestment_someCountries.csv", function(error, data) {
+
+				var currentYear = '2004';
+
+				// add select option
+		        // for all years
+		        var all_years = [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014];
+		        var select = d3.select('#select')
+					.append('select')
+		            .attr('class', 'year')
+		            .on('change', onchange);
+
+		        var options = select.selectAll('option')
+		            .data(all_years)
+		            .enter()
+		            .append('option')
+		            .text(function(d){
+		                return d;
+		            });
+		         // when change the year;
+			        function onchange(){
+			            currentYear = d3.select('select.year').property('value');
+
+			            //display the new map;
+                     	d3.selectAll("g").remove();
+
+                        var svg = d3.select("svg")
+                            .append("g")
+                            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+                        // Draw all rects;
+                        drawAllrects(svg);
+			          
+			        };
+
+				x.domain(data.map(function(d) {
+					return d.name;
+				}));
+
+				var xAxis = d3.svg.axis()
+				.scale(x)
+				.orient("bottom");
+
+
+
+
+                // Draw all rects;
+				drawAllrects(svg);
+				
+				function drawAllrects(svg) {
+
+                    y.domain(d3.extent(data, function(d) {
+
+                        return   d['YR' + currentYear]/1000000000;
+                    })).nice();
+
+                    svg.append("g")
+                        .attr("class", "y axis")
+                        .call(yAxis);
+
+                    svg.append("g")
+                        .attr("class", "y axis")
+                        .append("text")
+						.style("font-size", 14)
+                        .text(" billion US$")
+                        .attr("transform", "translate(15, 74), rotate(-90)")
+
+                    svg.append("g")
+                        .attr("class", "X axis")
+                        .attr("transform", "translate(" + (margin.left - 30) + "," + (height - 10) + ")")
+                        .call(xAxis);
+
+                    svg.append("g")
+                        .attr("class", "x axis")
+                        .append("line")
+                        .attr("y1", y(0))
+                        .attr("y2", y(0))
+                        .attr("x2", width);
+
+
+
+
+					svg.selectAll(".bar")
+						.data(data)
+						.enter().append("rect")
+						.attr("class", function(d) {
+
+					if (  d['YR' + currentYear]/1000000000 < 0){
+						return "bar negative";
+					} else {
+						return "bar positive";
+					}
+
+				})
+				.attr("data-yr", function(d){
+					return d.name;
+				})
+				.attr("data-c", function(d){
+					return  d['YR' + currentYear]/1000000000;
+				})
+				.attr("title", function(d){
+					return (d.name + ": " +   d['YR' + currentYear]/1000000000 + " billion US$")
+				})
+				.attr("y", function(d) {
+
+					if (  d['YR' + currentYear]/1000000000 > 0){
+						return y(  d['YR' + currentYear]/1000000000);
+					} else {
+						return y(0);
+					}
+
+				})
+				.attr("x", function(d) {
+					return x(d.name);
+				})
+				.attr("width", x.rangeBand())
+				.attr("height", function(d) {
+					return Math.abs(y(  d['YR' + currentYear]/1000000000) - y(0));
+				})
+                        .on("mouseover", function (d) {
+                            // d3.select(this).attr("id")
+
+                            // get coordinates of the mouse
+                            // sign coordinates to tooltip;
+                            var coordinates = d3.mouse(this);
+                            var x_text = coordinates[0] ;
+                            var y_text = coordinates[1] ;
+                            //update the tooltip position and value
+                            d3.select("svg")
+								.append("text")
+								.attr("id", "label")
+								.attr('x', x_text + 30)
+								.attr('y', y_text - 30)
+								.style("fill", "black")
+								.style("font-size", 20)
+								.attr("stroke", "black")
+                                .attr("text-anchor", "middle")
+                                .text(d.name +": "+  d['YR' + currentYear] + " US$");
+
+
+                        })
+                        .on("mouseout", function () {
+                            d3.select("#label").remove();
+                        });
+//
+
+
+
+                };
+
+
+
+
+
+
+	        });
+
+
+
+
+	     </script>
+	 </body>
+	 </html>
