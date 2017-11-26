@@ -188,18 +188,18 @@
                 bottom: 0,
                 left: 0
             },
-            width = 950 - margin.left - margin.right,
-            height = 500 - margin.top - margin.bottom;
+            width = 1100 - margin.left - margin.right, //950
+            height = 700 - margin.top - margin.bottom; //500
 
         // set color for each regressor
         var regressorColor = {
-            "GDP" : ["#C4C4FF", "#0009FF"],
+            "GDP" : ["#D1C4E9", "#311B92"],
             "Technical articles" : ["#bbffec", "#00d1ff"],
             "Commerical bank branches" : ["#C4C4FF", "#0009FF"],
             "Time required to start a business" : ["#defffd", "#00f4ff"],
             "Labor force" : ["#ffd9d2", "#ff000a"],
-            "Internet users" : ["#bbffb9", "#13ff00"],
-            "Mobile cellular subscriptions" : ["#ffa798", "#ff0029"],
+            "Internet users" : ["#E1BEE7", "#4A148C"],
+            "Mobile cellular subscriptions" : ["#FFCDD2", "#C62828"],
             "Unemployment rate" : ["#ffd7f0", "#ff00e5"],
             "Life expantancy" : ["#ffe9d2", "#ff0000"]
         };
@@ -352,10 +352,10 @@
                 .attr('width', legendRectSize)
                 .attr('height', legendRectSize)
                 .attr('x', function(d,i){
-                    return 550;
+                    return 600;
                 })
                 .attr('y', function(d,i){
-                    return i * 20;
+                    return i * 20 + 130;
                 })
                 .style('fill', function(d,i){
 
@@ -369,10 +369,10 @@
 
             legend.append('text')
                 .attr('x', function(d,i){
-                    return 575;
+                    return 630;
                 })
                 .attr('y', function(d,i){
-                    return i * 20 + 15;
+                    return i * 20 + 145;
                 })
                 .text(function(d,i){
                     if(d == 1){
