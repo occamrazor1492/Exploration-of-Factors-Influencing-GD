@@ -138,6 +138,8 @@
                 return current_regressor+' distribution for different country of year '+current_year;
             });
 
+
+
         // when change the regressor;
         function onchangeRegressor(){
             current_regressor = d3.select('select.regressor').property('value');
@@ -188,8 +190,11 @@
                 bottom: 0,
                 left: 0
             },
-            width = 1100 - margin.left - margin.right, //950
-            height = 700 - margin.top - margin.bottom; //500
+            width = 1200 - margin.left - margin.right, //950
+            height = 650 - margin.top - margin.bottom; //500
+
+
+
 
         // set color for each regressor
         var regressorColor = {
@@ -213,7 +218,7 @@
             .attr("height", height)
             .append('g')
             .attr('class', 'map')
-            .attr('transform','translate(100, 50)');
+            .attr('transform','translate(100, -50)');
 
 
         var projection = d3.geoMercator()
@@ -346,7 +351,7 @@
                 .enter()
                 .append('g')
                 .attr('class', 'legend')
-                .attr('transform', 'translate(-400,300)');
+                .attr('transform', 'translate(-380,170)');
 
             legend.append('rect')
                 .attr('width', legendRectSize)
@@ -385,6 +390,8 @@
                 });
 
         }
+
+
 
 
     </script>
