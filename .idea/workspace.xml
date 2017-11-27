@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/10Attrs.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/10Attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/4Attrs.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/4Attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/6Attrs.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/6Attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/8Attrs.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/8Attrs.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/AboutData.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/AboutData.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/SingleAttrList.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/SingleAttrList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/TechArtcl.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/TechArtcl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/UnempRate.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/UnempRate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/comparedBarChart_main.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/comparedBarChart_main.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jinya_6906_presentation/page-1.html" afterPath="$PROJECT_DIR$/Jinya_6906_presentation/page-1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,8 +20,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2916">
-              <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+            <state relative-caret-position="318">
+              <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -165,6 +157,7 @@
       <find>twitter</find>
       <find>fangye</find>
       <find>98.68</find>
+      <find>red</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -180,8 +173,6 @@
         <option value="$PROJECT_DIR$/factCo2pieChart.html" />
         <option value="$PROJECT_DIR$/factInvestment.html" />
         <option value="$PROJECT_DIR$/bundleChart.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/9Attrs.html" />
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/page-1.html" />
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/gdp.html" />
@@ -191,6 +182,8 @@
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/comparedBarChart_main.html" />
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/6Attrs.html" />
         <option value="$PROJECT_DIR$/Jinya_6906_presentation/4Attrs.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -241,7 +234,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="916" />
@@ -337,25 +330,25 @@
       <workItem from="1511729165598" duration="1047000" />
       <workItem from="1511787940722" duration="2508000" />
       <workItem from="1511807830732" duration="140000" />
-      <workItem from="1511817387624" duration="11000" />
+      <workItem from="1511817387624" duration="615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33682000" />
+    <option name="totallyTimeSpent" value="34286000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1272" height="777" extended-state="6" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13429257" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13343924" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21554253" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20220083" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -723,8 +716,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="162" column="59" lean-forward="false" selection-start-line="162" selection-start-column="59" selection-end-line="162" selection-end-column="59" />
+        <state relative-caret-position="318">
+          <caret line="151" column="54" lean-forward="true" selection-start-line="151" selection-start-column="54" selection-end-line="151" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
