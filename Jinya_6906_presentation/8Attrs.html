@@ -1,7 +1,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>with4</title>
+    <title>with8</title>
 </head>
 <h2>k-mean clustering</h2>
 <!--<p>with attribute of Laber force,foreign direct investment net flows, technical articles, and co2 emissions </p>-->
@@ -35,17 +35,16 @@
 
 <body>
 <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
-<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
-<button id="buttonC1">Compare</button>
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<button id="btn1"><< Next >></button>
 <button id="buttonBack"><< Back >></button>
 <script>
 
-    d3.select("#buttonC1")
-        .on("click",function(){
-            open(src="comparedBarChart_main.html")
+    d3.select("#btn1")
+        .on("click",function() {
+            open(src="6Attrs.html")
 
-
-    });
+        });
 
     d3.select("#buttonBack")
         .on("click",function(){
@@ -53,19 +52,26 @@
 
         });
 
-//    d3.select("button")
-//        .on("click",function(){
-//            open(src="presentation-1.html")
-//
-//        });
+
 
 
     var vis=d3.select("#id");
 
     var p=vis.append("p")
-        .text("With attribute of Laber force, Co2 emissions, Foreign Direct Investment Net Flows, and Technical articles");
+        .text("With 8 attributes of:");
+    var pa=vis.append("p")
+        .text("CO2 Emission"+
+            " Foreign Direct Investment Net Flows,  " +
+            "InternetUsers, LaborForce, Life Expectency,    " +
+            "Commercial bank branches      " +
+            "Unemployment Rate,     " +
+            "Technical Articles");
     p.style("font-size","16px");
-    p.style("color","blue");
+    // p.style("color","black");
+
+    pa.style("font-size","16px");
+    pa.style("color","blue");
+
 
 
 
@@ -82,8 +88,7 @@
     var padding = {left:40,right:0, top:10, bottom:30};
 
 
-    var dataset = [84, 1160,318 ];
-    var dataset2 = [32, 4, 17];
+    var dataset = [444, 620, 489];
 
 
     var xScale = d3.scale.ordinal()
@@ -92,7 +97,7 @@
 
 
     var yScale = d3.scale.linear()
-        .domain([0,1562])
+        .domain([0,1350])
         .range([height - padding.top - padding.bottom, 0]);
 
     var xAxis = d3.svg.axis()
@@ -109,7 +114,7 @@
 
     var color=d3.scale.ordinal()
         .domain(d3.range(3))
-        .range(["green","blue","orange"]);
+        .range(["blue","green","orange"]);
 
 
     var rects = container.selectAll(".MyRect")

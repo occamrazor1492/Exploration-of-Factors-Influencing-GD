@@ -45,7 +45,7 @@
     var vis=d3.select("#id");
 
     var p=vis.append("p")
-        .text("(Right) With attribute of Laber force, Co2 emissions, Foreign Direct Investment Net Flows, and Technical articles");
+        .text("(Left) With attribute of CO2 Emission, Foreign Direct Investment Net Flows,InternetUsers, LaborForce, Life Expectency, Commercial bank branches, Unemployment Rate, Technical Articles");
     p.style("font-size","16px");
     p.style("color","blue");
 
@@ -64,7 +64,7 @@
     var padding = {left:40,right:0, top:10, bottom:30};
 
 
-    var dataset = [84, 318, 1160];
+    var dataset = [370, 775, 411];
 
 
 
@@ -164,7 +164,7 @@
                 .attr("height", height);
 
 
-            var dataset2 = [84, 318, 1160];;
+            var dataset2 = [84,1160, 318 ];
             //  var dataset2 = [32, 4, 17];
 
 
@@ -191,7 +191,7 @@
 
             var color=d3.scale.ordinal()
                 .domain(d3.range(3))
-                .range(["green","blue","orange"]);
+                .range(["blue","green","orange"]);
 
 
             var rects = container2.selectAll(".MyRect")
@@ -215,7 +215,7 @@
 
 
             var texts = container2.selectAll(".MyText")
-                .data(dataset)
+                .data(dataset2)
                 .enter()
                 .append("text")
                 .attr("class","MyText")
