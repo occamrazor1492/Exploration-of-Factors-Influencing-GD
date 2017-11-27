@@ -42,13 +42,13 @@
 
     d3.select("#btn1")
         .on("click",function() {
-            open(src="comparedBarChart_main.html")
+            open(src="comparedBarChart_main.html", "_self")
 
         });
 
     d3.select("#buttonBack")
         .on("click",function(){
-            open(src="page-1.html")
+            open(src="page-1.html", "_self")
 
         });
 
@@ -58,7 +58,7 @@
     var vis=d3.select("#id");
 
     var p=vis.append("p")
-        .text("With 8 attributes of:");
+        .text("With 6 attributes of:");
     var pa=vis.append("p")
         .text("CO2 Emission"+
             " Foreign Direct Investment Net Flows,  " +
