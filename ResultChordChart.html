@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>弦图</title>
+    <title>Chord Chart</title>
     <style>
         body{
             background-color: #FFFFFF;
@@ -26,9 +26,9 @@
     ];
 
     var chord_layout = d3.layout.chord()
-        .padding (0.03)//取得或设置弦片段间的角填充,也就是每一个弦片段的间距啦
+        .padding (0.03)//Set the fill between each chord fragment
         .sortSubgroups(d3.descending)
-        .matrix(population); // 取得或设置布局需要的关联矩阵数据
+        .matrix(population); //Set the relevant matrix data
 
     var width = 800,
         height = 800;
@@ -48,7 +48,7 @@
 
     var g_outer = svg.append("g");
     g_outer.selectAll("path")
-        .data(chord_layout.groups) //返回index（行索引）、subindex（列索引）、startAngle、endAngle、value
+        .data(chord_layout.groups) //return index, subindex, startAngle、endAngle、value
         .enter()
         .append("path")
         .style("fill", function (d) {
@@ -67,11 +67,11 @@
         .each(function(d,i){
             d.angle = (d.startAngle+ d.endAngle)/2;
             d.name = city_name[i];
-        }) //表示对于任何一个绑定的元素，都执行后面的无名函数 function 的代码，这里的代码为： 计算一个角度，赋值给 d.angle ;获取城市的名称。
+        }) //To every bind elements, run the function: calculate the angle; assign value to d.angle; get the name of city
         .attr("dy",".35em")
         .attr("transform",function(d){
             return "rotate("+(d.angle*180/Math.PI)+")"+"translate(0,"+-1.0*(outerRadius+10)+")"+((d.angle>Math.PI*3/4 && d.angle<Math.PI*5/4)?"rotate(180)":"");
-        })//在用 transform 进行位移时，要注意转换的顺序： rotate -> translate,最后一行转换代码表示：当角度在135°到225°之间时，旋转180°。否则下方的文字是倒的，不利于观看。
+        })
         .text(function(d){return d.name;})
         .style("stroke","black");
 
@@ -105,7 +105,7 @@
     svg.append("g")
         .attr("class","chord")
         .selectAll("path")
-        .data(chord_layout.chords) //返回index（行索引）、subindex（列索引）、startAngle、endAngle、value等参数
+        .data(chord_layout.chords) //return index, subindex, startAngle、endAngle、value
         .enter()
         .append("path")
         .attr("d",inner_chord)
