@@ -2,60 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/co2Emission.tsv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/bg-showcase-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/dataMiningRegressFangye.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fangyeDataMining.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/TimeSeries.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/boxPlot.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/boxPlotCustomModel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/bullet.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/bulletChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/candlestick.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/candlestickChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/cumulativeLineChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/discreteBarChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/documentation.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/donutChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/forceDirected.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/furiousLegend.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/historicalBar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/historicalBarChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/legend.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/line.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/lineChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/lineChartLogScale.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/lineChartSVGResize.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/linePlusBarChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/lineWithFocusChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/lineWithFocusChart_x2AxisLabel.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/monitoringChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/multiBarChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/multiBarChart2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/multiBarHorizontalChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/multiChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/ohlc.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/ohlcChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/parallelCoordinates.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/parallelCoordinatesChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/pie.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/pieChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/scatter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/scatterChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/scatterPlusLineChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/site.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/sparkline.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/sparklinePlus.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/stackedArea.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/stackedAreaChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/stackedAreaWithFocusChart.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/sunburst.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/examples/tooltip.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nvd3-gh-pages/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resultPieChart.html" afterPath="$PROJECT_DIR$/resultPieChart.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -147,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="180">
-                <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+              <first_editor relative-caret-position="181">
+                <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -396,12 +343,12 @@
       <workItem from="1512920292469" duration="3133000" />
       <workItem from="1513110064846" duration="1542000" />
       <workItem from="1513111802582" duration="132000" />
-      <workItem from="1513111971188" duration="660000" />
+      <workItem from="1513111971188" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39944000" />
+    <option name="totallyTimeSpent" value="41604000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -726,8 +673,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="45" lean-forward="true" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <first_editor relative-caret-position="181">
+            <caret line="22" column="54" lean-forward="true" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
             <folding />
           </first_editor>
           <second_editor />
