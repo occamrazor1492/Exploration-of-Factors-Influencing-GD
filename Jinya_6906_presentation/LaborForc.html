@@ -125,7 +125,7 @@
         .scale(yScale)
         .orient("left");
 
-    //矩形之间的空白
+
     var rectPadding = 4;
 
     var color=d3.scale.ordinal()
@@ -138,7 +138,7 @@
         .enter()
         .append("rect")
         .attr("class","MyRect")
-        .attr("transform","translate(" + padding.left + "," + padding.top + ")")//begin from the right-left corner
+        .attr("transform","translate(" + padding.left + "," + padding.top + ")")
         .attr("fill",function(d){return color(d);})
         .attr("x", function(d,i){
             return xScale(i) + rectPadding/2;
