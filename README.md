@@ -1,6 +1,7 @@
-# [CSCI6906 Final Project](http://.....)
+# [CSCI_6906 Final Project](http://https://github.com/zhongziyun1993/DataVS_project)
 
-[What factors affect GDP?]
+## Topic
+#### Exploration of Factors Influencing GDP
 [Dataset] (http://databank.worldbank.org/data/home.aspx)
 
 ## Preview
