@@ -24,7 +24,7 @@ To begin using this template, choose one of the following options to get started
 
 ## Reference
 * [World Bank Dataset](http://databank.worldbank.org/data/home.aspx)
-* [NVD3 - A reusable D3 charting](libraryhttps://github.com/novus/nvd3)
+* [NVD3](https://github.com/novus/nvd3)
 * [D3 (or D3.js) JavaScript library](https://github.com/d3/d3)
 * [scikit-learn Machine Learning in Python](http://scikit-learn.org/stable/index.html)
 * [Bootstrap](https://github.com/twbs/bootstrap)
