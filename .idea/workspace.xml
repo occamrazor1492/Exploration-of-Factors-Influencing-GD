@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world map of all regressors/foreignInvestment_someCountries.csv" afterPath="$PROJECT_DIR$/world map of all regressors/foreignInvestment_someCountries.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world map of all regressors/foreign_investment.html" afterPath="$PROJECT_DIR$/world map of all regressors/foreign_investment.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world map of all regressors/index.html" afterPath="$PROJECT_DIR$/world map of all regressors/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/world map of all regressors/pieChart.html" afterPath="$PROJECT_DIR$/world map of all regressors/pieChart.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,8 +20,8 @@
       <file leaf-file-name="foreign_investment.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/world map of all regressors/foreign_investment.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
               <folding />
             </state>
           </provider>
@@ -95,8 +92,8 @@
         <option value="$PROJECT_DIR$/ResultChordChart.html" />
         <option value="$PROJECT_DIR$/world map of all regressors/index.html" />
         <option value="$PROJECT_DIR$/world map of all regressors/pieChart.html" />
-        <option value="$PROJECT_DIR$/world map of all regressors/foreign_investment.html" />
         <option value="$PROJECT_DIR$/world map of all regressors/foreignInvestment_someCountries.csv" />
+        <option value="$PROJECT_DIR$/world map of all regressors/foreign_investment.html" />
       </list>
     </option>
   </component>
@@ -266,12 +263,12 @@
       <workItem from="1511817387624" duration="747000" />
       <workItem from="1511987118525" duration="59000" />
       <workItem from="1512920292469" duration="3031000" />
-      <workItem from="1513111672614" duration="3341000" />
+      <workItem from="1513111672614" duration="3967000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40849000" />
+    <option name="totallyTimeSpent" value="41475000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -624,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/world map of all regressors/foreign_investment.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="155" column="0" lean-forward="true" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="63" lean-forward="false" selection-start-line="15" selection-start-column="63" selection-end-line="15" selection-end-column="63" />
           <folding />
         </state>
       </provider>
