@@ -36,16 +36,8 @@
 <body>
 <!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<!--<button id="btn_1"><< Next >></button>-->
-<!--<button id="buttonBack"><< Back >></button>-->
+
 <script>
-
-//    d3.select("#btn_1")
-//        .on("click",function () {
-//            open(src="4Attrs.html")
-//
-//        });
-
 
     d3.select("#buttonBack")
         .on("click",function(){
@@ -106,7 +98,7 @@
         .scale(yScale)
         .orient("left");
 
-    //矩形之间的空白
+
     var rectPadding = 4;
 
     var color=d3.scale.ordinal()

@@ -4,7 +4,6 @@
     <title>with6</title>
 </head>
 <h2>k-mean clustering</h2>
-<!--<p>with attribute of Laber force,foreign direct investment net flows, technical articles, and co2 emissions </p>-->
 
 <style>
     .axis path,
@@ -19,10 +18,6 @@
         font-size: 11px;
     }
 
-    .MyRect {
-        /*fill: ;*/
-    }
-
     .MyText {
         fill: black;
         text-anchor: middle;
@@ -34,7 +29,7 @@
 </div>
 
 <body>
-<!--<script src="https://d3js.org/d3.v4.min.js"></script>-->
+
 <script src="http://d3js.org/d3.v3.min.js"></script>
 <button id="btn1"><< Next >></button>
 <button id="buttonBack"><< Back >></button>
@@ -52,9 +47,6 @@
 
         });
 
-
-
-
     var vis=d3.select("#id");
 
     var p=vis.append("p")
@@ -71,9 +63,6 @@
 
     pa.style("font-size","16px");
     pa.style("color","blue");
-
-
-
 
     var width = 500;
     var height = 500;
@@ -109,7 +98,6 @@
         .scale(yScale)
         .orient("left");
 
-    //矩形之间的空白
     var rectPadding = 4;
 
     var color=d3.scale.ordinal()
@@ -134,8 +122,6 @@
         .attr("height", function(d){
             return height - padding.top - padding.bottom - yScale(d);
         });
-    //  .attr("fill",function(d){return d.Color;});
-
 
     var texts = container.selectAll(".MyText")
         .data(dataset)
