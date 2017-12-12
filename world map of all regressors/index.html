@@ -5,7 +5,6 @@
     <title>world map</title>
     <meta charset="utf-8">
 
-
     <style>
 
         .names {
@@ -14,7 +13,10 @@
             stroke-linejoin: round;
         }
         /* Tooltip CSS */
-        
+        /*
+            for d3-tip: we use the online resources; the link is in the followings:
+            http://bl.ocks.org/micahstubbs/8e15870eb432a21f0bc4d3d527b2d14f
+        */
         .d3-tip {
             line-height: 1.5;
             font-weight: 400;
@@ -92,7 +94,7 @@
 
         var format = d3.format(",");
 
-        /// add attributes selections;
+        //add attributes selections;
         var regressors = ['GDP','Technical articles',
             'Commerical bank branches','Time required to start a business', 'Labor force', 'Internet users',
             'Mobile cellular subscriptions','Unemployment rate',
@@ -138,9 +140,9 @@
                 return current_regressor+' distribution for different country of year '+current_year;
             });
 
-
-
-        // when change the regressor;
+        /**
+         * when change the regressor, update the heading
+         */
         function onchangeRegressor(){
             current_regressor = d3.select('select.regressor').property('value');
             d3.select('#header')
@@ -151,13 +153,17 @@
             // un-display the previous map;
             d3.select('g.countries')
                 .style('display','none');
+            // remove the previous legend
+            d3.select('g.legend').remove();
             //display the new map;
             queue()
                 .defer(d3.json, "world_countries.json")
                 .defer(d3.csv, current_regressor+".csv")
                 .await(ready);
         }
-        // when change the year;
+        /**
+         * when change the year, update the heading
+         */
         function onchange(){
             current_year = d3.select('select.year').property('value');
             // change header
@@ -168,13 +174,14 @@
             // un-display the previous map;
             d3.select('g.countries')
                 .style('display','none');
+            // remove the previous legend
+            d3.select('g.legend').remove();
             //display the new map;
             queue()
                 .defer(d3.json, "world_countries.json")
                 .defer(d3.csv, current_regressor+".csv")
                 .await(ready);
         }
-
         // Set tooltips
 
         var tip = d3.tip()
@@ -192,8 +199,6 @@
             },
             width = 1200 - margin.left - margin.right, //950
             height = 650 - margin.top - margin.bottom; //500
-
-
 
 
         // set color for each regressor
@@ -229,10 +234,7 @@
 
         svg.call(tip);
 
-//        load data
-        // let user choose the attribute and year
-
-
+        // load the dataset and json file.
         queue()
             .defer(d3.json, "world_countries.json")
             .defer(d3.csv, ""+current_regressor+".csv")
@@ -240,11 +242,7 @@
 
         function ready(error, data, coutry_attribute) {
 
-
             var coutry_attributeById = {};
-            //console.log(data);
-           // console.log(coutry_attribute.length);
-
             // data is the world map;
             // coutry_attribute is the "world_coutry_attribute.csv"
            // get all values for the specific year;
@@ -252,15 +250,13 @@
 
             coutry_attribute.forEach(function(d) {
                 //var selected_year = 'YR' + current_year;
-
                 coutry_attributeById[d.id] = +d['YR' + current_year];
-
                 all_values.push(+d['YR' + current_year]);
-                //console.log(coutry_attributeById[d.id]);
+
             });
 
             if(current_regressor == 'GDP' || current_regressor == 'Labor force'){
-                //console.log("this is gdo");
+
                 var maxInput = Math.log2(d3.max(all_values));
                 var minInput = Math.log2(d3.min(all_values));
             }else{
@@ -273,12 +269,10 @@
                 .range([regressorColor[current_regressor][0], regressorColor[current_regressor][1]])
                 .interpolate(d3.interpolateHcl);
 
-
             data.features.forEach(function(d) {
                 d.coutry_attribute = coutry_attributeById[d.id]
-
             });
-
+            // add each countries
             svg.append("g")
                 .attr("class", "countries")
                 .selectAll("path")
@@ -288,10 +282,11 @@
                 .style("fill", function(d) {
 
                    if(d.coutry_attribute == undefined){
-                       //console.log("this is undefined");
+
                        return rangeColor(minInput);
                    }
-
+                    // if the regressor is GDP or labor force, we need to calculate its logrithm.
+                    // because the gap is too high between each country.
                     if(current_regressor == 'GDP' || current_regressor == 'Labor force'){
 
                         var calculate_value = Math.log2(coutry_attributeById[d.id]);
@@ -302,8 +297,6 @@
 
                         return rangeColor(calculate_value);
                     }
-
-
 
                 })
                 .style('stroke', 'white')
@@ -328,20 +321,23 @@
                         .style("stroke", "white")
                         .style("stroke-width", 0.3);
                 });
-
+            // add path to the countries
             svg.append("path")
                 .datum(topojson.mesh(data.features, function(a, b) {
                     return a.id !== b.id;
                 }))
-                // .datum(topojson.mesh(data.features, function(a, b) { return a !== b; }))
                 .attr("class", "names")
                 .attr("d", path);
 
-            // add legend
+            /**
+             * add legend for each world map
+             * @type {number}
+             */
             var legendRectSize = 18;
             var legendSpacing = 4;
             // set the color domain()
             var setLegends = [1,2,3,4,5,6,7,8,9];
+
 
              var legend = d3.select('svg')
                 .append('g')
@@ -363,8 +359,6 @@
                     return i * 20 + 130;
                 })
                 .style('fill', function(d,i){
-
-                    console.log(minInput + (maxInput-minInput)/(setLegends.length) * d );
 
                     return rangeColor(minInput + (maxInput-minInput)/(setLegends.length) * d );
                 })
@@ -390,9 +384,6 @@
                 });
 
         }
-
-
-
 
     </script>
 

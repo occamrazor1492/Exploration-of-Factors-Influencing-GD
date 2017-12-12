@@ -12,6 +12,10 @@
 			font-size: 14px;
 		}
 
+		/**
+		part of the framework is referred to following address:
+		https://bl.ocks.org/datafunk/8a17b5f476a40a08ed17
+		 */
 		div#title {
 			width: 880px;
 			margin: 10px auto 0;
@@ -93,9 +97,6 @@
 			var x = d3.scale.ordinal()
 			.rangeRoundBands([0, width], .2);
 
-
-
-
 			var yAxis = d3.svg.axis()
 			.scale(y)
 			.orient("left");
@@ -106,11 +107,9 @@
 			.append("g")
 			.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
 			d3.csv("foreignInvestment_someCountries.csv", function(error, data) {
 
 				var currentYear = '2004';
-
 				// add select option
 		        // for all years
 		        var all_years = [2004,2005,2006,2007,2008,2009,2010,2011,2012,2013,2014];
@@ -139,7 +138,6 @@
 
                         // Draw all rects;
                         drawAllrects(svg);
-			          
 			        };
 
 				x.domain(data.map(function(d) {
@@ -149,9 +147,6 @@
 				var xAxis = d3.svg.axis()
 				.scale(x)
 				.orient("bottom");
-
-
-
 
                 // Draw all rects;
 				drawAllrects(svg);
@@ -176,7 +171,7 @@
 
                     svg.append("g")
                         .attr("class", "X axis")
-                        .attr("transform", "translate(" + (margin.left - 30) + "," + (height - 10) + ")")
+                        .attr("transform", "translate(" + (margin.left - 30) + "," + (height - 3) + ")")
                         .call(xAxis);
 
                     svg.append("g")
@@ -185,9 +180,6 @@
                         .attr("y1", y(0))
                         .attr("y2", y(0))
                         .attr("x2", width);
-
-
-
 
 					svg.selectAll(".bar")
 						.data(data)
@@ -199,7 +191,6 @@
 					} else {
 						return "bar positive";
 					}
-
 				})
 				.attr("data-yr", function(d){
 					return d.name;
@@ -217,7 +208,6 @@
 					} else {
 						return y(0);
 					}
-
 				})
 				.attr("x", function(d) {
 					return x(d.name);
@@ -234,6 +224,7 @@
                             var coordinates = d3.mouse(this);
                             var x_text = coordinates[0] ;
                             var y_text = coordinates[1] ;
+
                             //update the tooltip position and value
                             d3.select("svg")
 								.append("text")
@@ -246,25 +237,12 @@
                                 .attr("text-anchor", "middle")
                                 .text(d.name +": "+  d['YR' + currentYear] + " US$");
 
-
                         })
                         .on("mouseout", function () {
                             d3.select("#label").remove();
                         });
-//
-
-
-
                 };
-
-
-
-
-
-
 	        });
-
-
 
 
 	     </script>
