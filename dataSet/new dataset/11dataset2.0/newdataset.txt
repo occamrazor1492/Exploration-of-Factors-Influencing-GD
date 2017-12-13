@@ -1,0 +1,12 @@
+2.0GDP(constant 2010 US$)New.csv
+2.0co2 emissionsNew.csv
+2.0commercial bank branchesNew.csv
+2.0foreign direct investment net inflowsNew.csv
+2.0internetUsersNew.csv
+2.0labor forceNew.csv
+2.0life expectancyNew.csv
+2.0mobile cellular subscriptionsNew.csv
+2.0technical articlesNew.csv
+2.0time required to start a businessNew.csv
+2.0unemployment rateNew.csv
+newdataset.txt

@@ -1,0 +1,143 @@
+,Country Name,Country Code,Series Name,Series Code,2004 [YR2004],2005 [YR2005],2006 [YR2006],2007 [YR2007],2008 [YR2008],2009 [YR2009],2010 [YR2010],2011 [YR2011],2012 [YR2012],2013 [YR2013],2014 [YR2014]
+0,Afghanistan,AFG,Time required to start a business (days),IC.REG.DURS,9.0,9.0,9.0,9.0,9.0,7.0,7.0,7.0,7.0,5.0,7.0
+1,Albania,ALB,Time required to start a business (days),IC.REG.DURS,39.0,40.0,38.0,36.0,9.0,6.0,6.0,5.5,4.5,4.5,4.5
+2,Angola,AGO,Time required to start a business (days),IC.REG.DURS,83.0,83.0,83.0,83.0,68.0,68.0,66.0,66.0,66.0,66.0,66.0
+3,Arab World,ARB,Time required to start a business (days),IC.REG.DURS,41.875,39.5,38.27777778,31.7,20.2,19.65,19.675,19.125,20.73809524,19.47619048,18.66666667
+4,Argentina,ARG,Time required to start a business (days),IC.REG.DURS,30.0,30.0,30.0,30.0,30.5,25.5,25.0,25.0,25.0,25.0,25.0
+5,Armenia,ARM,Time required to start a business (days),IC.REG.DURS,18.0,18.0,17.0,17.0,17.0,14.0,14.0,8.0,8.0,4.0,3.0
+6,Australia,AUS,Time required to start a business (days),IC.REG.DURS,3.0,3.0,3.0,3.0,2.5,2.5,2.5,2.5,2.5,2.5,2.5
+7,Austria,AUT,Time required to start a business (days),IC.REG.DURS,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,25.0,22.0
+8,Bangladesh,BGD,Time required to start a business (days),IC.REG.DURS,51.5,51.5,43.5,67.5,66.5,43.5,26.5,26.5,26.5,21.8,19.5
+9,Belize,BLZ,Time required to start a business (days),IC.REG.DURS,47.77269403,57.0,44.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0,43.0
+10,Benin,BEN,Time required to start a business (days),IC.REG.DURS,34.0,34.0,34.0,34.0,34.0,34.0,34.0,32.0,29.0,18.0,12.0
+11,Bhutan,BTN,Time required to start a business (days),IC.REG.DURS,62.0,62.0,62.0,48.0,46.0,46.0,46.0,36.0,36.0,32.0,17.0
+12,Bolivia,BOL,Time required to start a business (days),IC.REG.DURS,60.0,50.0,50.0,50.0,50.0,50.0,49.0,49.0,49.0,49.0,49.0
+13,Botswana,BWA,Time required to start a business (days),IC.REG.DURS,125.0,125.0,105.0,105.0,74.0,59.0,59.0,59.0,59.0,60.0,60.0
+14,Brazil,BRA,Time required to start a business (days),IC.REG.DURS,156.0,156.0,151.0,152.0,147.0,122.0,122.0,122.0,122.0,86.6,83.6
+15,Bulgaria,BGR,Time required to start a business (days),IC.REG.DURS,32.0,32.0,32.0,32.0,49.0,18.0,18.0,18.0,18.0,18.0,18.0
+16,Burkina Faso,BFA,Time required to start a business (days),IC.REG.DURS,40.0,40.0,34.0,18.0,16.0,14.0,14.0,13.0,13.0,13.0,13.0
+17,Burundi,BDI,Time required to start a business (days),IC.REG.DURS,13.0,13.0,13.0,13.0,13.0,13.0,13.0,13.0,7.0,5.0,5.0
+18,Cabo Verde,CPV,Time required to start a business (days),IC.REG.DURS,47.77269403,60.0,52.0,52.0,52.0,24.0,11.0,11.0,11.0,10.0,10.0
+19,Cameroon,CMR,Time required to start a business (days),IC.REG.DURS,45.0,45.0,45.0,38.0,38.0,35.0,19.0,15.0,15.0,15.0,15.0
+20,Chad,TCD,Time required to start a business (days),IC.REG.DURS,62.0,62.0,62.0,62.0,62.0,62.0,62.0,53.0,60.0,60.0,60.0
+21,Chile,CHL,Time required to start a business (days),IC.REG.DURS,42.0,42.0,40.0,40.0,40.0,40.0,34.5,7.5,5.5,5.5,5.5
+22,Comoros,COM,Time required to start a business (days),IC.REG.DURS,47.77269403,30.0,30.0,30.0,22.0,22.0,22.0,22.0,20.0,15.0,15.0
+23,"Congo, Dem. Rep.",COD,Time required to start a business (days),IC.REG.DURS,133.0,133.0,133.0,132.0,132.0,126.0,84.0,65.0,58.0,31.0,16.0
+24,"Congo, Rep.",COG,Time required to start a business (days),IC.REG.DURS,37.0,37.0,37.0,38.0,161.0,161.0,161.0,161.0,161.0,101.0,53.0
+25,Costa Rica,CRI,Time required to start a business (days),IC.REG.DURS,77.0,77.0,77.0,77.0,60.0,59.5,59.5,59.5,59.5,24.0,24.0
+26,Cote d'Ivoire,CIV,Time required to start a business (days),IC.REG.DURS,58.0,45.0,45.0,42.0,40.0,40.0,40.0,32.0,32.0,8.0,7.0
+27,Croatia,HRV,Time required to start a business (days),IC.REG.DURS,29.0,29.0,25.0,22.5,22.5,22.5,15.5,15.0,15.0,15.0,15.0
+28,Denmark,DNK,Time required to start a business (days),IC.REG.DURS,7.0,6.0,6.0,6.0,6.0,6.0,5.5,5.5,5.5,5.5,5.5
+29,Dominican Republic,DOM,Time required to start a business (days),IC.REG.DURS,79.0,76.0,81.0,30.0,20.0,21.0,20.0,19.5,19.5,19.5,19.5
+30,East Asia & Pacific,EAS,Time required to start a business (days),IC.REG.DURS,47.03703704,47.22222222,46.21428571,43.85714286,42.05357143,39.41071429,36.375,32.78571429,33.0,34.14137931,30.26206897
+31,East Asia & Pacific (excluding high income),EAP,Time required to start a business (days),IC.REG.DURS,57.0,56.55,52.1,49.75,48.2,45.9,42.55,39.05,39.19047619,40.78095238,35.42380952
+32,Ecuador,ECU,Time required to start a business (days),IC.REG.DURS,92.0,69.0,65.0,65.0,65.0,64.0,56.0,55.5,55.5,55.5,55.5
+33,"Egypt, Arab Rep.",EGY,Time required to start a business (days),IC.REG.DURS,38.0,22.0,19.0,10.0,8.0,8.0,8.0,8.0,8.0,8.0,8.0
+34,Equatorial Guinea,GNQ,Time required to start a business (days),IC.REG.DURS,47.77269403,177.0,154.0,155.0,155.0,155.0,155.0,133.0,154.0,135.0,135.0
+35,Estonia,EST,Time required to start a business (days),IC.REG.DURS,72.0,35.0,35.0,6.5,6.5,6.5,6.5,6.5,6.5,6.5,4.5
+36,Euro area,EMU,Time required to start a business (days),IC.REG.DURS,40.25,28.875,25.08823529,21.52941176,16.66666667,15.83333333,14.41666667,14.05263158,13.39473684,12.60526316,10.60526316
+37,Europe & Central Asia,ECS,Time required to start a business (days),IC.REG.DURS,36.79069767,31.36363636,26.43478261,22.54347826,18.78723404,16.75,15.64583333,14.21875,13.87755102,12.70204082,11.28979592
+38,Europe & Central Asia (excluding high income),ECA,Time required to start a business (days),IC.REG.DURS,40.875,39.47058824,32.22222222,27.33333333,23.0,18.42105263,17.31578947,15.47368421,14.42105263,12.55263158,11.55263158
+39,European Union,EUU,Time required to start a business (days),IC.REG.DURS,36.68,27.68,23.84615385,20.23076923,17.37037037,15.66666667,14.48148148,14.35714286,13.80357143,13.16071429,11.57142857
+40,Fiji,FJI,Time required to start a business (days),IC.REG.DURS,31.0,44.0,44.0,44.0,44.0,44.0,44.0,44.0,58.0,59.0,59.0
+41,Finland,FIN,Time required to start a business (days),IC.REG.DURS,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0,14.0
+42,France,FRA,Time required to start a business (days),IC.REG.DURS,7.0,7.0,7.0,7.0,6.5,6.5,6.5,6.5,6.5,6.5,4.5
+43,"Gambia, The",GMB,Time required to start a business (days),IC.REG.DURS,47.77269403,28.0,27.0,32.0,27.0,27.0,27.0,27.0,27.0,27.0,26.0
+44,Germany,DEU,Time required to start a business (days),IC.REG.DURS,45.0,22.0,22.0,18.0,17.5,17.5,14.5,14.5,14.5,14.5,14.5
+45,Ghana,GHA,Time required to start a business (days),IC.REG.DURS,21.0,17.0,17.0,13.0,11.0,11.0,11.0,11.0,11.0,14.0,14.0
+46,Greece,GRC,Time required to start a business (days),IC.REG.DURS,38.0,38.0,38.0,38.0,19.0,19.0,19.0,11.0,11.0,14.0,13.0
+47,Guatemala,GTM,Time required to start a business (days),IC.REG.DURS,39.0,39.0,27.0,34.0,34.0,37.0,37.0,37.0,40.0,19.5,18.5
+48,Guinea,GIN,Time required to start a business (days),IC.REG.DURS,40.0,40.0,40.0,40.0,40.0,40.0,40.0,40.0,35.0,16.0,8.0
+49,Guinea-Bissau,GNB,Time required to start a business (days),IC.REG.DURS,47.77269403,259.0,260.0,259.0,259.0,216.0,216.0,9.0,9.0,9.0,9.0
+50,Heavily indebted poor countries (HIPC),HPC,Time required to start a business (days),IC.REG.DURS,55.23529412,58.51351351,55.81578947,50.05263158,49.42105263,46.89473684,42.5,31.98684211,30.23684211,24.63157895,21.32894737
+51,High income,HIC,Time required to start a business (days),IC.REG.DURS,32.95652174,32.11764706,30.01886792,26.79464286,24.20175439,23.65789474,22.57894737,19.71186441,19.925,19.04666667,17.7
+52,Honduras,HND,Time required to start a business (days),IC.REG.DURS,61.0,69.0,57.0,20.0,20.0,14.0,14.0,14.0,14.0,14.0,14.0
+53,Hungary,HUN,Time required to start a business (days),IC.REG.DURS,52.0,38.0,38.0,16.0,5.0,4.0,4.0,4.0,5.0,5.0,5.0
+54,Iceland,ISL,Time required to start a business (days),IC.REG.DURS,5.0,5.0,5.0,5.0,5.0,5.0,5.0,4.5,4.5,4.5,4.0
+55,India,IND,Time required to start a business (days),IC.REG.DURS,81.0,70.0,34.0,32.0,29.0,29.0,27.0,27.0,25.0,26.1,28.4
+56,Indonesia,IDN,Time required to start a business (days),IC.REG.DURS,151.0,151.0,97.0,105.0,77.0,62.0,49.0,48.0,48.0,75.5,52.5
+57,"Iran, Islamic Rep.",IRN,Time required to start a business (days),IC.REG.DURS,28.0,27.0,27.0,27.0,27.0,8.0,10.0,10.0,15.0,15.0,12.0
+58,Ireland,IRL,Time required to start a business (days),IC.REG.DURS,18.0,18.0,13.0,13.0,13.0,13.0,13.0,13.0,10.0,10.0,6.0
+59,Israel,ISR,Time required to start a business (days),IC.REG.DURS,19.0,19.0,19.0,19.0,19.0,19.0,19.0,19.0,20.0,13.0,13.0
+60,Italy,ITA,Time required to start a business (days),IC.REG.DURS,13.0,13.0,13.0,13.0,10.0,10.0,6.0,6.0,6.0,6.0,5.0
+61,Jamaica,JAM,Time required to start a business (days),IC.REG.DURS,31.0,8.0,8.0,8.0,8.0,8.0,8.0,7.0,7.0,6.0,15.0
+62,Japan,JPN,Time required to start a business (days),IC.REG.DURS,31.0,30.0,22.0,22.0,22.0,22.0,22.0,11.0,11.0,10.7,10.7
+63,Jordan,JOR,Time required to start a business (days),IC.REG.DURS,26.0,16.0,16.0,13.0,13.0,12.0,12.0,12.0,12.0,12.0,12.0
+64,Kazakhstan,KAZ,Time required to start a business (days),IC.REG.DURS,26.0,25.0,21.0,21.0,21.0,20.0,19.0,19.0,19.0,12.0,10.0
+65,Kenya,KEN,Time required to start a business (days),IC.REG.DURS,47.0,54.0,54.0,44.0,31.0,31.0,31.0,33.0,32.0,32.0,30.0
+66,"Korea, Rep.",KOR,Time required to start a business (days),IC.REG.DURS,17.0,17.0,17.0,17.0,17.0,14.0,14.0,7.0,4.0,4.0,4.0
+67,Kuwait,KWT,Time required to start a business (days),IC.REG.DURS,35.0,35.0,35.0,35.0,35.0,35.0,35.0,32.0,32.0,32.0,31.0
+68,Latin America & Caribbean,LCN,Time required to start a business (days),IC.REG.DURS,69.04545455,75.4516129,70.67741935,64.921875,64.0,61.703125,57.0,52.98484848,53.10606061,34.22424242,29.31515152
+69,Latin America & Caribbean (excluding high income),LAC,Time required to start a business (days),IC.REG.DURS,73.64705882,84.95652174,80.30434783,74.08695652,72.82608696,68.93478261,63.0,62.65217391,62.782608700000004,35.90869565,29.90869565
+70,Latvia,LVA,Time required to start a business (days),IC.REG.DURS,16.0,16.0,16.0,16.0,15.5,15.5,15.5,15.5,15.5,12.5,12.5
+71,Least developed countries: UN classification,LDC,Time required to start a business (days),IC.REG.DURS,65.51315789,69.1744186,64.78409091,60.44318182,55.03409091,52.76136364,47.94318182,37.45454545,36.33695652,32.3,28.86956522
+72,Lesotho,LSO,Time required to start a business (days),IC.REG.DURS,138.0,103.0,73.0,73.0,39.0,39.0,39.0,39.0,29.0,29.0,29.0
+73,Low & middle income,LMY,Time required to start a business (days),IC.REG.DURS,54.38990826,57.61382114,53.308,49.163999999999994,45.228,41.91269841,39.154761900000004,35.00793651,34.19767442,27.57751938,24.43023256
+74,Low income,LIC,Time required to start a business (days),IC.REG.DURS,57.375,62.07407407,58.67857143,54.03571429,52.85714286,50.21428571,44.75,35.875,33.01724138,28.56896552,27.13793103
+75,Lower middle income,LMC,Time required to start a business (days),IC.REG.DURS,57.21111111,54.01020408,49.96938776,45.71428571,41.26530612,38.44,35.62,31.16,30.7745098,27.80784314,23.14117647
+76,Madagascar,MDG,Time required to start a business (days),IC.REG.DURS,47.0,42.0,20.0,7.0,7.0,8.0,8.0,7.0,9.0,8.0,8.0
+77,Malawi,MWI,Time required to start a business (days),IC.REG.DURS,37.0,37.0,37.0,37.0,37.0,36.0,36.0,36.0,37.0,40.0,38.0
+78,Malaysia,MYS,Time required to start a business (days),IC.REG.DURS,37.0,37.0,37.0,31.0,20.0,18.0,17.0,5.0,6.0,6.0,5.5
+79,Maldives,MDV,Time required to start a business (days),IC.REG.DURS,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0,9.0
+80,Mali,MLI,Time required to start a business (days),IC.REG.DURS,33.0,27.0,42.0,25.0,25.0,8.0,8.0,8.0,8.0,11.0,11.0
+81,Mauritius,MUS,Time required to start a business (days),IC.REG.DURS,46.0,46.0,46.0,7.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0
+82,Mexico,MEX,Time required to start a business (days),IC.REG.DURS,30.0,30.0,8.0,7.5,9.0,8.0,6.0,6.0,6.0,6.3,6.3
+83,Middle East & North Africa,MEA,Time required to start a business (days),IC.REG.DURS,37.375,35.76470588,34.47058824,29.63157895,19.57894737,18.10526316,18.23684211,18.75,20.76190476,19.35714286,18.64285714
+84,Middle East & North Africa (excluding high income),MNA,Time required to start a business (days),IC.REG.DURS,37.81818182,36.08333333,35.75,34.75,21.0,19.0,19.0,18.91666667,22.46153846,20.69230769,20.0
+85,Middle income,MIC,Time required to start a business (days),IC.REG.DURS,53.54705882,56.359375,51.75773196,47.75773196,43.0257732,39.54081633,37.55612245,34.76020408,34.54,27.29,23.645
+86,Moldova,MDA,Time required to start a business (days),IC.REG.DURS,30.0,30.0,30.0,23.0,15.0,10.0,10.0,9.0,9.0,7.0,6.0
+87,Morocco,MAR,Time required to start a business (days),IC.REG.DURS,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,12.0,11.0,11.0
+88,Mozambique,MOZ,Time required to start a business (days),IC.REG.DURS,167.0,167.0,112.0,29.0,26.0,26.0,13.0,13.0,13.0,13.0,13.0
+89,Namibia,NAM,Time required to start a business (days),IC.REG.DURS,85.0,95.0,95.0,99.0,66.0,66.0,66.0,66.0,66.0,66.0,66.0
+90,Netherlands,NLD,Time required to start a business (days),IC.REG.DURS,9.0,9.0,8.0,8.0,8.0,8.0,8.0,8.0,5.0,4.0,4.0
+91,New Zealand,NZL,Time required to start a business (days),IC.REG.DURS,12.0,12.0,12.0,12.0,0.5,0.5,0.5,0.5,0.5,0.5,0.5
+92,Nicaragua,NIC,Time required to start a business (days),IC.REG.DURS,40.0,40.0,40.0,39.0,39.0,39.0,39.0,39.0,39.0,36.0,13.0
+93,Niger,NER,Time required to start a business (days),IC.REG.DURS,35.0,35.0,31.0,23.0,19.0,17.0,17.0,17.0,17.0,17.0,15.0
+94,Nigeria,NGA,Time required to start a business (days),IC.REG.DURS,36.0,35.0,35.0,27.0,25.0,25.0,25.0,28.0,28.0,30.8,30.8
+95,North America,NAC,Time required to start a business (days),IC.REG.DURS,4.5,4.5,4.5,4.5,5.0,5.0,5.0,5.0,5.0,5.6,5.3
+96,Norway,NOR,Time required to start a business (days),IC.REG.DURS,18.0,8.0,7.0,8.0,6.0,6.0,6.0,6.0,6.0,6.0,5.0
+97,OECD members,OED,Time required to start a business (days),IC.REG.DURS,30.18181818,23.54545455,19.88235294,17.26470588,14.52941176,13.97058824,13.13235294,10.83823529,10.45588235,10.25588235,8.914705882
+98,Oman,OMN,Time required to start a business (days),IC.REG.DURS,35.0,35.0,42.0,39.0,13.0,11.0,11.0,7.0,7.0,7.0,7.0
+99,Pakistan,PAK,Time required to start a business (days),IC.REG.DURS,24.0,22.0,24.0,23.0,23.0,19.0,19.0,19.0,19.0,19.0,19.0
+100,Papua New Guinea,PNG,Time required to start a business (days),IC.REG.DURS,52.0,52.0,52.0,52.0,52.0,52.0,52.0,52.0,52.0,53.0,53.0
+101,Paraguay,PRY,Time required to start a business (days),IC.REG.DURS,72.0,72.0,72.0,34.0,35.0,35.0,35.0,35.0,35.0,35.0,35.0
+102,Peru,PER,Time required to start a business (days),IC.REG.DURS,98.0,104.0,74.0,74.0,66.5,40.5,27.0,26.0,26.0,26.0,26.0
+103,Philippines,PHL,Time required to start a business (days),IC.REG.DURS,49.0,47.0,47.0,47.0,41.0,42.0,37.0,36.0,36.0,36.0,34.0
+104,Poland,POL,Time required to start a business (days),IC.REG.DURS,56.0,46.0,31.0,31.0,31.0,32.0,32.0,32.0,32.0,30.0,30.0
+105,Portugal,PRT,Time required to start a business (days),IC.REG.DURS,78.0,48.0,6.5,5.5,4.5,4.5,4.5,3.5,3.5,2.5,2.5
+106,Russian Federation,RUS,Time required to start a business (days),IC.REG.DURS,30.0,29.0,29.0,29.0,29.0,29.0,29.0,29.0,18.0,12.9,11.2
+107,Rwanda,RWA,Time required to start a business (days),IC.REG.DURS,18.0,18.0,16.0,16.0,14.0,7.0,7.0,7.0,8.0,7.0,6.5
+108,Saudi Arabia,SAU,Time required to start a business (days),IC.REG.DURS,74.0,67.0,42.0,19.0,19.0,20.0,20.0,20.0,20.0,20.5,20.5
+109,Senegal,SEN,Time required to start a business (days),IC.REG.DURS,57.0,57.0,57.0,58.0,9.0,9.0,9.0,6.0,6.0,6.0,6.0
+110,Singapore,SGP,Time required to start a business (days),IC.REG.DURS,8.0,6.0,6.0,5.0,3.5,2.5,2.5,2.5,2.5,2.5,2.5
+111,Slovenia,SVN,Time required to start a business (days),IC.REG.DURS,60.0,60.0,60.0,60.0,19.0,6.0,6.0,6.0,6.0,6.0,6.0
+112,Solomon Islands,SLB,Time required to start a business (days),IC.REG.DURS,55.0,55.0,55.0,55.0,55.0,55.0,55.0,41.0,7.0,9.0,9.0
+113,South Africa,ZAF,Time required to start a business (days),IC.REG.DURS,36.0,33.0,33.0,31.0,22.0,22.0,22.0,19.0,19.0,19.0,19.0
+114,South Asia,SAS,Time required to start a business (days),IC.REG.DURS,39.1875,37.5625,32.3125,32.6875,32.1875,28.5625,25.4375,23.5625,20.3125,17.6125,15.9875
+115,Spain,ESP,Time required to start a business (days),IC.REG.DURS,137.0,70.0,60.0,60.0,61.0,61.0,52.0,29.0,29.0,23.0,13.0
+116,Sri Lanka,LKA,Time required to start a business (days),IC.REG.DURS,46.0,46.0,46.0,42.0,44.0,44.0,38.0,35.0,11.0,11.0,11.0
+117,Sub-Saharan Africa,SSF,Time required to start a business (days),IC.REG.DURS,58.18918919,62.51111111,58.69565217,53.69565217,49.67391304,47.06521739,44.93478261,35.90217391,34.23404255,29.78297872,27.34680851
+118,Sub-Saharan Africa (excluding high income),SSA,Time required to start a business (days),IC.REG.DURS,58.18918919,60.39534884,56.97727273,51.72727273,47.52272727,44.79545455,42.56818182,33.625,31.46666667,27.26222222,24.71777778
+119,Sudan,SDN,Time required to start a business (days),IC.REG.DURS,37.0,37.0,37.0,37.0,37.0,35.0,35.0,35.0,35.0,36.0,36.0
+120,Suriname,SUR,Time required to start a business (days),IC.REG.DURS,47.77269403,697.0,689.0,689.0,690.0,690.0,690.0,690.0,690.0,204.0,84.0
+121,Swaziland,SWZ,Time required to start a business (days),IC.REG.DURS,47.77269403,60.0,60.0,60.0,60.0,60.0,56.0,56.0,56.0,38.0,30.0
+122,Sweden,SWE,Time required to start a business (days),IC.REG.DURS,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0,16.0
+123,Switzerland,CHE,Time required to start a business (days),IC.REG.DURS,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,18.0,10.0
+124,Tanzania,TZA,Time required to start a business (days),IC.REG.DURS,34.0,34.0,31.0,30.0,29.0,29.0,29.0,29.0,26.0,26.0,26.0
+125,Thailand,THA,Time required to start a business (days),IC.REG.DURS,33.0,33.0,33.0,33.0,33.0,32.0,32.0,29.0,29.0,27.5,27.5
+126,Togo,TGO,Time required to start a business (days),IC.REG.DURS,63.0,63.0,62.0,60.0,60.0,84.0,84.0,84.0,38.0,19.0,10.0
+127,Trinidad and Tobago,TTO,Time required to start a business (days),IC.REG.DURS,47.77269403,74.0,41.0,41.0,41.0,41.0,40.0,40.0,40.0,35.5,11.5
+128,Tunisia,TUN,Time required to start a business (days),IC.REG.DURS,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0,11.0
+129,Turkey,TUR,Time required to start a business (days),IC.REG.DURS,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.0,6.5
+130,Uganda,UGA,Time required to start a business (days),IC.REG.DURS,34.0,34.0,28.0,28.0,25.0,25.0,24.0,33.0,33.0,32.0,32.0
+131,Ukraine,UKR,Time required to start a business (days),IC.REG.DURS,34.0,34.0,33.0,27.0,27.0,27.0,27.0,24.0,22.0,21.0,21.0
+132,United Arab Emirates,ARE,Time required to start a business (days),IC.REG.DURS,19.0,19.0,19.0,18.0,18.0,15.0,15.0,13.0,8.0,8.0,8.0
+133,United States,USA,Time required to start a business (days),IC.REG.DURS,6.0,6.0,6.0,6.0,5.0,5.0,5.0,5.0,5.0,6.2,5.6
+134,Upper middle income,UMC,Time required to start a business (days),IC.REG.DURS,49.425,58.80851064,53.58333333,49.84375,44.82291667,40.6875,39.57291667,38.51041667,38.45918367,26.75102041,24.16938776
+135,Uruguay,URY,Time required to start a business (days),IC.REG.DURS,45.0,45.0,43.0,43.0,43.0,64.0,64.0,6.5,6.5,6.5,6.5
+136,Uzbekistan,UZB,Time required to start a business (days),IC.REG.DURS,28.0,28.0,28.0,14.0,14.0,14.0,14.0,13.0,11.0,7.5,7.5
+137,"Venezuela, RB",VEN,Time required to start a business (days),IC.REG.DURS,143.0,143.0,143.0,142.0,141.0,141.0,141.0,141.0,144.0,144.0,144.0
+138,World,WLD,Time required to start a business (days),IC.REG.DURS,48.02903226,50.1408046,46.37359551,42.24309392,38.64285714,36.22677596,33.99180328,30.12972973,29.66666667,24.86931217,22.29365079
+139,"Yemen, Rep.",YEM,Time required to start a business (days),IC.REG.DURS,63.0,63.0,63.0,63.0,13.0,12.0,12.0,12.0,40.0,40.0,40.0
+140,Zambia,ZMB,Time required to start a business (days),IC.REG.DURS,35.0,35.0,35.0,33.0,18.0,18.0,18.0,18.0,17.5,7.5,6.5
+141,Zimbabwe,ZWE,Time required to start a business (days),IC.REG.DURS,93.0,93.0,93.0,93.0,93.0,93.0,86.0,86.0,86.0,90.0,90.0

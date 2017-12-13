@@ -1,0 +1,1563 @@
+Country Name, Year,labor force
+Afghanistan,2004,6478539.0
+Afghanistan,2005,6795212.0
+Afghanistan,2006,6982165.0
+Afghanistan,2007,7139660.0
+Afghanistan,2008,7292595.0
+Afghanistan,2009,7474251.0
+Afghanistan,2010,7707349.0
+Afghanistan,2011,8050184.0
+Afghanistan,2012,8458402.0
+Afghanistan,2013,8916157.0
+Afghanistan,2014,9397624.0
+Albania,2004,1302765.0
+Albania,2005,1284116.0
+Albania,2006,1270016.0
+Albania,2007,1254859.0
+Albania,2008,1239840.0
+Albania,2009,1225724.0
+Albania,2010,1216574.0
+Albania,2011,1209673.0
+Albania,2012,1202142.0
+Albania,2013,1193017.0
+Albania,2014,1182427.0
+Angola,2004,6902459.0
+Angola,2005,7120373.0
+Angola,2006,7320251.0
+Angola,2007,7525025.0
+Angola,2008,7767322.0
+Angola,2009,8073712.0
+Angola,2010,8394741.0
+Angola,2011,8697734.0
+Angola,2012,9020219.0
+Angola,2013,9359059.0
+Angola,2014,9720079.0
+Arab World,2004,95013514.0
+Arab World,2005,98398064.0
+Arab World,2006,100895201.0
+Arab World,2007,104904478.0
+Arab World,2008,108675547.0
+Arab World,2009,112134034.0
+Arab World,2010,116182200.0
+Arab World,2011,119451590.0
+Arab World,2012,122745301.0
+Arab World,2013,126271217.0
+Arab World,2014,129253735.0
+Argentina,2004,17523093.0
+Argentina,2005,17785280.0
+Argentina,2006,18010680.0
+Argentina,2007,18074237.0
+Argentina,2008,18145797.0
+Argentina,2009,18472750.0
+Argentina,2010,18478554.0
+Argentina,2011,18592982.0
+Argentina,2012,18887510.0
+Argentina,2013,19220374.0
+Argentina,2014,19542348.0
+Armenia,2004,1340518.0
+Armenia,2005,1349111.0
+Armenia,2006,1353064.0
+Armenia,2007,1356386.0
+Armenia,2008,1363391.0
+Armenia,2009,1376394.0
+Armenia,2010,1427010.0
+Armenia,2011,1460214.0
+Armenia,2012,1455333.0
+Armenia,2013,1464171.0
+Armenia,2014,1471158.0
+Australia,2004,10242433.0
+Australia,2005,10552172.0
+Australia,2006,10801785.0
+Australia,2007,10970722.0
+Australia,2008,11257550.0
+Australia,2009,11489734.0
+Australia,2010,11693952.0
+Australia,2011,11868407.0
+Australia,2012,12023138.0
+Australia,2013,12192397.0
+Australia,2014,12338969.0
+Austria,2004,3998012.0
+Austria,2005,4076456.0
+Austria,2006,4153660.0
+Austria,2007,4239270.0
+Austria,2008,4277580.0
+Austria,2009,4313061.0
+Austria,2010,4316715.0
+Austria,2011,4350847.0
+Austria,2012,4398901.0
+Austria,2013,4433263.0
+Austria,2014,4414374.0
+Bangladesh,2004,61785608.0
+Bangladesh,2005,62471582.0
+Bangladesh,2006,62943612.0
+Bangladesh,2007,63342123.0
+Bangladesh,2008,63688571.0
+Bangladesh,2009,64016262.0
+Bangladesh,2010,64352482.0
+Bangladesh,2011,65536644.0
+Bangladesh,2012,66746410.0
+Bangladesh,2013,67995984.0
+Bangladesh,2014,69307791.0
+Belize,2004,105868.0
+Belize,2005,110301.0
+Belize,2006,115743.0
+Belize,2007,121359.0
+Belize,2008,127121.0
+Belize,2009,132990.0
+Belize,2010,138930.0
+Belize,2011,145439.0
+Belize,2012,151973.0
+Belize,2013,157910.0
+Belize,2014,163926.0
+Benin,2004,3094328.0
+Benin,2005,3198020.0
+Benin,2006,3292312.0
+Benin,2007,3387968.0
+Benin,2008,3485706.0
+Benin,2009,3586891.0
+Benin,2010,3692117.0
+Benin,2011,3807498.0
+Benin,2012,3927312.0
+Benin,2013,4052688.0
+Benin,2014,4183217.0
+Bhutan,2004,292458.0
+Bhutan,2005,307646.0
+Bhutan,2006,319692.0
+Bhutan,2007,330341.0
+Bhutan,2008,339747.0
+Bhutan,2009,348242.0
+Bhutan,2010,351979.0
+Bhutan,2011,354540.0
+Bhutan,2012,350616.0
+Bhutan,2013,361773.0
+Bhutan,2014,369242.0
+Bolivia,2004,4003442.0
+Bolivia,2005,4107007.0
+Bolivia,2006,4227460.0
+Bolivia,2007,4347511.0
+Bolivia,2008,4467718.0
+Bolivia,2009,4588898.0
+Bolivia,2010,4684572.0
+Bolivia,2011,4776596.0
+Bolivia,2012,4908948.0
+Bolivia,2013,5043424.0
+Bolivia,2014,5180836.0
+Botswana,2004,893195.0
+Botswana,2005,916177.0
+Botswana,2006,938517.0
+Botswana,2007,961666.0
+Botswana,2008,986051.0
+Botswana,2009,1012154.0
+Botswana,2010,1037023.0
+Botswana,2011,1062065.0
+Botswana,2012,1087484.0
+Botswana,2013,1112901.0
+Botswana,2014,1138670.0
+Brazil,2004,92735060.0
+Brazil,2005,95550599.0
+Brazil,2006,96906935.0
+Brazil,2007,98039556.0
+Brazil,2008,99948858.0
+Brazil,2009,101720628.0
+Brazil,2010,101716804.0
+Brazil,2011,101600638.0
+Brazil,2012,102939910.0
+Brazil,2013,103961886.0
+Brazil,2014,105818575.0
+Bulgaria,2004,3384018.0
+Bulgaria,2005,3325503.0
+Bulgaria,2006,3434495.0
+Bulgaria,2007,3510714.0
+Bulgaria,2008,3579073.0
+Bulgaria,2009,3506935.0
+Bulgaria,2010,3420680.0
+Bulgaria,2011,3343397.0
+Bulgaria,2012,3353034.0
+Bulgaria,2013,3377282.0
+Bulgaria,2014,3369458.0
+Burkina Faso,2004,5807953.0
+Burkina Faso,2005,5993351.0
+Burkina Faso,2006,6173763.0
+Burkina Faso,2007,6368978.0
+Burkina Faso,2008,6573011.0
+Burkina Faso,2009,6790667.0
+Burkina Faso,2010,7013666.0
+Burkina Faso,2011,7235968.0
+Burkina Faso,2012,7466545.0
+Burkina Faso,2013,7712511.0
+Burkina Faso,2014,7968472.0
+Burundi,2004,3203526.0
+Burundi,2005,3339109.0
+Burundi,2006,3474490.0
+Burundi,2007,3615599.0
+Burundi,2008,3760980.0
+Burundi,2009,3909589.0
+Burundi,2010,4060139.0
+Burundi,2011,4185677.0
+Burundi,2012,4314842.0
+Burundi,2013,4447067.0
+Burundi,2014,4581966.0
+Cabo Verde,2004,182599.0
+Cabo Verde,2005,189127.0
+Cabo Verde,2006,195494.0
+Cabo Verde,2007,201705.0
+Cabo Verde,2008,207812.0
+Cabo Verde,2009,213910.0
+Cabo Verde,2010,220082.0
+Cabo Verde,2011,225983.0
+Cabo Verde,2012,232111.0
+Cabo Verde,2013,238345.0
+Cabo Verde,2014,244562.0
+Cameroon,2004,6881178.0
+Cameroon,2005,7142736.0
+Cameroon,2006,7398866.0
+Cameroon,2007,7671311.0
+Cameroon,2008,7957074.0
+Cameroon,2009,8253292.0
+Cameroon,2010,8558485.0
+Cameroon,2011,8802818.0
+Cameroon,2012,9056829.0
+Cameroon,2013,9319128.0
+Cameroon,2014,9593390.0
+Chad,2004,3545472.0
+Chad,2005,3679536.0
+Chad,2006,3805186.0
+Chad,2007,3936279.0
+Chad,2008,4074420.0
+Chad,2009,4221343.0
+Chad,2010,4377968.0
+Chad,2011,4534713.0
+Chad,2012,4702446.0
+Chad,2013,4879818.0
+Chad,2014,5065303.0
+Chile,2004,6546462.0
+Chile,2005,6731819.0
+Chile,2006,6928359.0
+Chile,2007,7115631.0
+Chile,2008,7401091.0
+Chile,2009,7504723.0
+Chile,2010,7963575.0
+Chile,2011,8237552.0
+Chile,2012,8344377.0
+Chile,2013,8487027.0
+Chile,2014,8655459.0
+Comoros,2004,189437.0
+Comoros,2005,195825.0
+Comoros,2006,202231.0
+Comoros,2007,208889.0
+Comoros,2008,215784.0
+Comoros,2009,222895.0
+Comoros,2010,230209.0
+Comoros,2011,237206.0
+Comoros,2012,244430.0
+Comoros,2013,251838.0
+Comoros,2014,259423.0
+"Congo, Dem. Rep.",2004,20723881.0
+"Congo, Dem. Rep.",2005,21358718.0
+"Congo, Dem. Rep.",2006,21971035.0
+"Congo, Dem. Rep.",2007,22627574.0
+"Congo, Dem. Rep.",2008,23325554.0
+"Congo, Dem. Rep.",2009,24072405.0
+"Congo, Dem. Rep.",2010,24839237.0
+"Congo, Dem. Rep.",2011,25591550.0
+"Congo, Dem. Rep.",2012,26389430.0
+"Congo, Dem. Rep.",2013,27225727.0
+"Congo, Dem. Rep.",2014,28103944.0
+"Congo, Rep.",2004,1455892.0
+"Congo, Rep.",2005,1508671.0
+"Congo, Rep.",2006,1560138.0
+"Congo, Rep.",2007,1618250.0
+"Congo, Rep.",2008,1675660.0
+"Congo, Rep.",2009,1732445.0
+"Congo, Rep.",2010,1787399.0
+"Congo, Rep.",2011,1831509.0
+"Congo, Rep.",2012,1874224.0
+"Congo, Rep.",2013,1916970.0
+"Congo, Rep.",2014,1959888.0
+Costa Rica,2004,1801534.0
+Costa Rica,2005,1905652.0
+Costa Rica,2006,1945948.0
+Costa Rica,2007,2013590.0
+Costa Rica,2008,2034702.0
+Costa Rica,2009,2063740.0
+Costa Rica,2010,2074923.0
+Costa Rica,2011,2162229.0
+Costa Rica,2012,2182008.0
+Costa Rica,2013,2227127.0
+Costa Rica,2014,2264503.0
+Cote d'Ivoire,2004,6733266.0
+Cote d'Ivoire,2005,6859586.0
+Cote d'Ivoire,2006,7005870.0
+Cote d'Ivoire,2007,7161658.0
+Cote d'Ivoire,2008,7328678.0
+Cote d'Ivoire,2009,7508619.0
+Cote d'Ivoire,2010,7701426.0
+Cote d'Ivoire,2011,7906993.0
+Cote d'Ivoire,2012,8128729.0
+Cote d'Ivoire,2013,8364604.0
+Cote d'Ivoire,2014,8611684.0
+Croatia,2004,1995958.0
+Croatia,2005,1994995.0
+Croatia,2006,1979486.0
+Croatia,2007,1988421.0
+Croatia,2008,1984687.0
+Croatia,2009,1972743.0
+Croatia,2010,1949140.0
+Croatia,2011,1870201.0
+Croatia,2012,1856946.0
+Croatia,2013,1839625.0
+Croatia,2014,1890555.0
+Denmark,2004,2906097.0
+Denmark,2005,2900837.0
+Denmark,2006,2931529.0
+Denmark,2007,2931143.0
+Denmark,2008,2963054.0
+Denmark,2009,2952715.0
+Denmark,2010,2930051.0
+Denmark,2011,2929229.0
+Denmark,2012,2913576.0
+Denmark,2013,2897070.0
+Denmark,2014,2909860.0
+Dominican Republic,2004,3884470.0
+Dominican Republic,2005,3983904.0
+Dominican Republic,2006,4084620.0
+Dominican Republic,2007,4186177.0
+Dominican Republic,2008,4177813.0
+Dominican Republic,2009,4163546.0
+Dominican Republic,2010,4333627.0
+Dominican Republic,2011,4495580.0
+Dominican Republic,2012,4583079.0
+Dominican Republic,2013,4673363.0
+Dominican Republic,2014,4739299.0
+East Asia & Pacific,2004,1170029281.0
+East Asia & Pacific,2005,1180347170.0
+East Asia & Pacific,2006,1189454781.0
+East Asia & Pacific,2007,1199294652.0
+East Asia & Pacific,2008,1207906275.0
+East Asia & Pacific,2009,1215581029.0
+East Asia & Pacific,2010,1222870581.0
+East Asia & Pacific,2011,1234123957.0
+East Asia & Pacific,2012,1243736820.0
+East Asia & Pacific,2013,1253035738.0
+East Asia & Pacific,2014,1261707491.0
+East Asia & Pacific (excluding high income),2004,1050476950.0
+East Asia & Pacific (excluding high income),2005,1060037141.0
+East Asia & Pacific (excluding high income),2006,1068198135.0
+East Asia & Pacific (excluding high income),2007,1076835966.0
+East Asia & Pacific (excluding high income),2008,1084703189.0
+East Asia & Pacific (excluding high income),2009,1092095749.0
+East Asia & Pacific (excluding high income),2010,1098393778.0
+East Asia & Pacific (excluding high income),2011,1109914959.0
+East Asia & Pacific (excluding high income),2012,1118956043.0
+East Asia & Pacific (excluding high income),2013,1127212615.0
+East Asia & Pacific (excluding high income),2014,1135192103.0
+Ecuador,2004,6414371.0
+Ecuador,2005,6457707.0
+Ecuador,2006,6723335.0
+Ecuador,2007,6675980.0
+Ecuador,2008,6715419.0
+Ecuador,2009,6828063.0
+Ecuador,2010,6737318.0
+Ecuador,2011,6821532.0
+Ecuador,2012,6919197.0
+Ecuador,2013,7025914.0
+Ecuador,2014,7204757.0
+"Egypt, Arab Rep.",2004,23354631.0
+"Egypt, Arab Rep.",2005,24475125.0
+"Egypt, Arab Rep.",2006,24532397.0
+"Egypt, Arab Rep.",2007,25700108.0
+"Egypt, Arab Rep.",2008,26496654.0
+"Egypt, Arab Rep.",2009,27270653.0
+"Egypt, Arab Rep.",2010,28054987.0
+"Egypt, Arab Rep.",2011,28426354.0
+"Egypt, Arab Rep.",2012,29060294.0
+"Egypt, Arab Rep.",2013,29768142.0
+"Egypt, Arab Rep.",2014,30307193.0
+Equatorial Guinea,2004,355722.0
+Equatorial Guinea,2005,372861.0
+Equatorial Guinea,2006,391823.0
+Equatorial Guinea,2007,412229.0
+Equatorial Guinea,2008,433619.0
+Equatorial Guinea,2009,455850.0
+Equatorial Guinea,2010,478973.0
+Equatorial Guinea,2011,502252.0
+Equatorial Guinea,2012,526934.0
+Equatorial Guinea,2013,552228.0
+Equatorial Guinea,2014,577735.0
+Estonia,2004,683354.0
+Estonia,2005,678029.0
+Estonia,2006,697212.0
+Estonia,2007,696360.0
+Estonia,2008,702493.0
+Estonia,2009,698211.0
+Estonia,2010,693266.0
+Estonia,2011,699275.0
+Estonia,2012,689511.0
+Estonia,2013,687862.0
+Estonia,2014,683366.0
+Euro area,2004,154393520.0
+Euro area,2005,156067940.0
+Euro area,2006,157669967.0
+Euro area,2007,159201324.0
+Euro area,2008,160698208.0
+Euro area,2009,161130592.0
+Euro area,2010,161241721.0
+Euro area,2011,160815280.0
+Euro area,2012,161773606.0
+Euro area,2013,162008851.0
+Euro area,2014,162417694.0
+Europe & Central Asia,2004,406254839.0
+Europe & Central Asia,2005,410335304.0
+Europe & Central Asia,2006,413899424.0
+Europe & Central Asia,2007,417832192.0
+Europe & Central Asia,2008,422053931.0
+Europe & Central Asia,2009,424338123.0
+Europe & Central Asia,2010,426156684.0
+Europe & Central Asia,2011,427977529.0
+Europe & Central Asia,2012,430411088.0
+Europe & Central Asia,2013,432286662.0
+Europe & Central Asia,2014,434710887.0
+Europe & Central Asia (excluding high income),2004,180719843.0
+Europe & Central Asia (excluding high income),2005,182425368.0
+Europe & Central Asia (excluding high income),2006,183762428.0
+Europe & Central Asia (excluding high income),2007,185800980.0
+Europe & Central Asia (excluding high income),2008,187584860.0
+Europe & Central Asia (excluding high income),2009,188856093.0
+Europe & Central Asia (excluding high income),2010,190072837.0
+Europe & Central Asia (excluding high income),2011,191857741.0
+Europe & Central Asia (excluding high income),2012,192627562.0
+Europe & Central Asia (excluding high income),2013,193619543.0
+Europe & Central Asia (excluding high income),2014,194876250.0
+European Union,2004,234344460.0
+European Union,2005,236307945.0
+European Union,2006,238690072.0
+European Union,2007,240397300.0
+European Union,2008,242514995.0
+European Union,2009,243243679.0
+European Union,2010,243643841.0
+European Union,2011,243289202.0
+European Union,2012,244884597.0
+European Union,2013,245660414.0
+European Union,2014,246917338.0
+Fiji,2004,317303.0
+Fiji,2005,320661.0
+Fiji,2006,320615.0
+Fiji,2007,321402.0
+Fiji,2008,325789.0
+Fiji,2009,330883.0
+Fiji,2010,335017.0
+Fiji,2011,337343.0
+Fiji,2012,339729.0
+Fiji,2013,341603.0
+Fiji,2014,343179.0
+Finland,2004,2622653.0
+Finland,2005,2643463.0
+Finland,2006,2681984.0
+Finland,2007,2707311.0
+Finland,2008,2736167.0
+Finland,2009,2708515.0
+Finland,2010,2697774.0
+Finland,2011,2711842.0
+Finland,2012,2718304.0
+Finland,2013,2691815.0
+Finland,2014,2686216.0
+France,2004,28474243.0
+France,2005,28742643.0
+France,2006,28890569.0
+France,2007,29107904.0
+France,2008,29284832.0
+France,2009,29539633.0
+France,2010,29645117.0
+France,2011,29693735.0
+France,2012,29937596.0
+France,2013,29994589.0
+France,2014,30033498.0
+"Gambia, The",2004,581857.0
+"Gambia, The",2005,601298.0
+"Gambia, The",2006,619647.0
+"Gambia, The",2007,639109.0
+"Gambia, The",2008,659760.0
+"Gambia, The",2009,681911.0
+"Gambia, The",2010,705156.0
+"Gambia, The",2011,727604.0
+"Gambia, The",2012,751320.0
+"Gambia, The",2013,776318.0
+"Gambia, The",2014,802655.0
+Germany,2004,40845505.0
+Germany,2005,41282894.0
+Germany,2006,41626600.0
+Germany,2007,41892111.0
+Germany,2008,41901328.0
+Germany,2009,41965846.0
+Germany,2010,41999734.0
+Germany,2011,41665603.0
+Germany,2012,41764275.0
+Germany,2013,42151284.0
+Germany,2014,42450423.0
+Ghana,2004,8772227.0
+Ghana,2005,8904953.0
+Ghana,2006,9033027.0
+Ghana,2007,9466946.0
+Ghana,2008,9915200.0
+Ghana,2009,10379656.0
+Ghana,2010,10859106.0
+Ghana,2011,11331411.0
+Ghana,2012,11816109.0
+Ghana,2013,12309496.0
+Ghana,2014,12640631.0
+Greece,2004,4925532.0
+Greece,2005,4935425.0
+Greece,2006,4981280.0
+Greece,2007,4985357.0
+Greece,2008,4998837.0
+Greece,2009,5054368.0
+Greece,2010,5080556.0
+Greece,2011,5001986.0
+Greece,2012,4945645.0
+Greece,2013,4883929.0
+Greece,2014,4819351.0
+Guatemala,2004,4647266.0
+Guatemala,2005,4935616.0
+Guatemala,2006,5229838.0
+Guatemala,2007,5313344.0
+Guatemala,2008,5399501.0
+Guatemala,2009,5483148.0
+Guatemala,2010,5561855.0
+Guatemala,2011,5646356.0
+Guatemala,2012,6266333.0
+Guatemala,2013,5949030.0
+Guatemala,2014,6157910.0
+Guinea,2004,3783551.0
+Guinea,2005,3886461.0
+Guinea,2006,3989496.0
+Guinea,2007,4102354.0
+Guinea,2008,4222869.0
+Guinea,2009,4349740.0
+Guinea,2010,4482419.0
+Guinea,2011,4640410.0
+Guinea,2012,4757593.0
+Guinea,2013,5406768.0
+Guinea,2014,5553328.0
+Guinea-Bissau,2004,547155.0
+Guinea-Bissau,2005,563065.0
+Guinea-Bissau,2006,578713.0
+Guinea-Bissau,2007,595212.0
+Guinea-Bissau,2008,612511.0
+Guinea-Bissau,2009,630638.0
+Guinea-Bissau,2010,649470.0
+Guinea-Bissau,2011,666956.0
+Guinea-Bissau,2012,686971.0
+Guinea-Bissau,2013,707648.0
+Guinea-Bissau,2014,728653.0
+Heavily indebted poor countries (HIPC),2004,212886832.0
+Heavily indebted poor countries (HIPC),2005,219477413.0
+Heavily indebted poor countries (HIPC),2006,226081614.0
+Heavily indebted poor countries (HIPC),2007,233039615.0
+Heavily indebted poor countries (HIPC),2008,240383172.0
+Heavily indebted poor countries (HIPC),2009,248078653.0
+Heavily indebted poor countries (HIPC),2010,256058078.0
+Heavily indebted poor countries (HIPC),2011,263767466.0
+Heavily indebted poor countries (HIPC),2012,271660223.0
+Heavily indebted poor countries (HIPC),2013,280525223.0
+Heavily indebted poor countries (HIPC),2014,289663023.0
+High income,2004,539859581.0
+High income,2005,546306469.0
+High income,2006,553039489.0
+High income,2007,559447374.0
+High income,2008,566496612.0
+High income,2009,569651760.0
+High income,2010,573272606.0
+High income,2011,574808771.0
+High income,2012,579914832.0
+High income,2013,583854026.0
+High income,2014,587719848.0
+Honduras,2004,2627013.0
+Honduras,2005,2631977.0
+Honduras,2006,2813069.0
+Honduras,2007,2944215.0
+Honduras,2008,3080187.0
+Honduras,2009,3220085.0
+Honduras,2010,3332447.0
+Honduras,2011,3451864.0
+Honduras,2012,3573589.0
+Honduras,2013,3699973.0
+Honduras,2014,3825275.0
+Hungary,2004,4220704.0
+Hungary,2005,4271638.0
+Hungary,2006,4295634.0
+Hungary,2007,4279872.0
+Hungary,2008,4249874.0
+Hungary,2009,4254746.0
+Hungary,2010,4303565.0
+Hungary,2011,4326628.0
+Hungary,2012,4387094.0
+Hungary,2013,4420495.0
+Hungary,2014,4547138.0
+Iceland,2004,168694.0
+Iceland,2005,174291.0
+Iceland,2006,181496.0
+Iceland,2007,186733.0
+Iceland,2008,189313.0
+Iceland,2009,186575.0
+Iceland,2010,187718.0
+Iceland,2011,186554.0
+Iceland,2012,187893.0
+Iceland,2013,190810.0
+Iceland,2014,193611.0
+India,2004,453263915.0
+India,2005,466009002.0
+India,2006,467055902.0
+India,2007,468036894.0
+India,2008,468945372.0
+India,2009,469787703.0
+India,2010,470593748.0
+India,2011,473683611.0
+India,2012,476809456.0
+India,2013,484664175.0
+India,2014,492267048.0
+Indonesia,2004,105357727.0
+Indonesia,2005,107161682.0
+Indonesia,2006,109215896.0
+Indonesia,2007,111217979.0
+Indonesia,2008,113093327.0
+Indonesia,2009,115291606.0
+Indonesia,2010,117350710.0
+Indonesia,2011,119044361.0
+Indonesia,2012,120568834.0
+Indonesia,2013,122010546.0
+Indonesia,2014,123568045.0
+"Iran, Islamic Rep.",2004,23449137.0
+"Iran, Islamic Rep.",2005,24675746.0
+"Iran, Islamic Rep.",2006,24701918.0
+"Iran, Islamic Rep.",2007,24691036.0
+"Iran, Islamic Rep.",2008,23945020.0
+"Iran, Islamic Rep.",2009,24573108.0
+"Iran, Islamic Rep.",2010,24624367.0
+"Iran, Islamic Rep.",2011,25096527.0
+"Iran, Islamic Rep.",2012,25545668.0
+"Iran, Islamic Rep.",2013,26155771.0
+"Iran, Islamic Rep.",2014,26556655.0
+Ireland,2004,1971636.0
+Ireland,2005,2077983.0
+Ireland,2006,2159814.0
+Ireland,2007,2238864.0
+Ireland,2008,2263706.0
+Ireland,2009,2240588.0
+Ireland,2010,2212519.0
+Ireland,2011,2192517.0
+Ireland,2012,2180128.0
+Ireland,2013,2190302.0
+Ireland,2014,2185422.0
+Israel,2004,3038665.0
+Israel,2005,3107738.0
+Israel,2006,3188821.0
+Israel,2007,3274615.0
+Israel,2008,3334553.0
+Israel,2009,3429472.0
+Israel,2010,3504611.0
+Israel,2011,3546403.0
+Israel,2012,3641687.0
+Israel,2013,3713619.0
+Israel,2014,3805304.0
+Italy,2004,24521456.0
+Italy,2005,24396974.0
+Italy,2006,24457298.0
+Italy,2007,24438274.0
+Italy,2008,24758709.0
+Italy,2009,24540422.0
+Italy,2010,24477364.0
+Italy,2011,24449018.0
+Italy,2012,24957186.0
+Italy,2013,25045495.0
+Italy,2014,25406356.0
+Jamaica,2004,1249557.0
+Jamaica,2005,1266002.0
+Jamaica,2006,1285842.0
+Jamaica,2007,1305041.0
+Jamaica,2008,1324221.0
+Jamaica,2009,1300643.0
+Jamaica,2010,1294999.0
+Jamaica,2011,1309833.0
+Jamaica,2012,1337270.0
+Jamaica,2013,1386012.0
+Jamaica,2014,1408224.0
+Japan,2004,66548715.0
+Japan,2005,66595631.0
+Japan,2006,66624479.0
+Japan,2007,66900411.0
+Japan,2008,66787610.0
+Japan,2009,66578719.0
+Japan,2010,66748679.0
+Japan,2011,65586043.0
+Japan,2012,65285023.0
+Japan,2013,65634180.0
+Japan,2014,65869553.0
+Jordan,2004,1392724.0
+Jordan,2005,1461578.0
+Jordan,2006,1517927.0
+Jordan,2007,1645517.0
+Jordan,2008,1720346.0
+Jordan,2009,1849672.0
+Jordan,2010,1920261.0
+Jordan,2011,1999376.0
+Jordan,2012,2072191.0
+Jordan,2013,2132068.0
+Jordan,2014,2237798.0
+Kazakhstan,2004,7801554.0
+Kazakhstan,2005,7945296.0
+Kazakhstan,2006,8077111.0
+Kazakhstan,2007,8221842.0
+Kazakhstan,2008,8376350.0
+Kazakhstan,2009,8572345.0
+Kazakhstan,2010,8723467.0
+Kazakhstan,2011,8844623.0
+Kazakhstan,2012,8930920.0
+Kazakhstan,2013,8958997.0
+Kazakhstan,2014,9045446.0
+Kenya,2004,12824704.0
+Kenya,2005,13116728.0
+Kenya,2006,13569575.0
+Kenya,2007,14027008.0
+Kenya,2008,14508935.0
+Kenya,2009,15009550.0
+Kenya,2010,15530606.0
+Kenya,2011,16083882.0
+Kenya,2012,16680041.0
+Kenya,2013,17301674.0
+Kenya,2014,17932109.0
+"Korea, Rep.",2004,23749918.0
+"Korea, Rep.",2005,23821621.0
+"Korea, Rep.",2006,24104621.0
+"Korea, Rep.",2007,24445400.0
+"Korea, Rep.",2008,24663712.0
+"Korea, Rep.",2009,24718565.0
+"Korea, Rep.",2010,25080158.0
+"Korea, Rep.",2011,25493936.0
+"Korea, Rep.",2012,25898479.0
+"Korea, Rep.",2013,26226135.0
+"Korea, Rep.",2014,26448924.0
+Kuwait,2004,1100564.0
+Kuwait,2005,1140740.0
+Kuwait,2006,1195308.0
+Kuwait,2007,1263682.0
+Kuwait,2008,1347176.0
+Kuwait,2009,1455484.0
+Kuwait,2010,1571256.0
+Kuwait,2011,1677274.0
+Kuwait,2012,1797436.0
+Kuwait,2013,1929125.0
+Kuwait,2014,2051661.0
+Latin America & Caribbean,2004,251469786.0
+Latin America & Caribbean,2005,257292773.0
+Latin America & Caribbean,2006,262694114.0
+Latin America & Caribbean,2007,267738762.0
+Latin America & Caribbean,2008,273540003.0
+Latin America & Caribbean,2009,278756684.0
+Latin America & Caribbean,2010,282708510.0
+Latin America & Caribbean,2011,285380625.0
+Latin America & Caribbean,2012,291813636.0
+Latin America & Caribbean,2013,295280057.0
+Latin America & Caribbean,2014,301167207.0
+Latin America & Caribbean (excluding high income),2004,240905585.0
+Latin America & Caribbean (excluding high income),2005,246477522.0
+Latin America & Caribbean (excluding high income),2006,251637560.0
+Latin America & Caribbean (excluding high income),2007,256500622.0
+Latin America & Caribbean (excluding high income),2008,262019704.0
+Latin America & Caribbean (excluding high income),2009,267102672.0
+Latin America & Caribbean (excluding high income),2010,270655843.0
+Latin America & Caribbean (excluding high income),2011,273058800.0
+Latin America & Caribbean (excluding high income),2012,279397374.0
+Latin America & Caribbean (excluding high income),2013,282731287.0
+Latin America & Caribbean (excluding high income),2014,288447519.0
+Latvia,2004,1109451.0
+Latvia,2005,1104714.0
+Latvia,2006,1126373.0
+Latvia,2007,1144688.0
+Latvia,2008,1159916.0
+Latvia,2009,1115837.0
+Latvia,2010,1062744.0
+Latvia,2011,1037180.0
+Latvia,2012,1043281.0
+Latvia,2013,1029318.0
+Latvia,2014,1020813.0
+Least developed countries: UN classification,2004,303575730.0
+Least developed countries: UN classification,2005,311403893.0
+Least developed countries: UN classification,2006,318810550.0
+Least developed countries: UN classification,2007,326201237.0
+Least developed countries: UN classification,2008,333729402.0
+Least developed countries: UN classification,2009,342035767.0
+Least developed countries: UN classification,2010,350686961.0
+Least developed countries: UN classification,2011,359936039.0
+Least developed countries: UN classification,2012,369010015.0
+Least developed countries: UN classification,2013,379322767.0
+Least developed countries: UN classification,2014,390244810.0
+Lesotho,2004,808051.0
+Lesotho,2005,807447.0
+Lesotho,2006,808840.0
+Lesotho,2007,809814.0
+Lesotho,2008,811059.0
+Lesotho,2009,824993.0
+Lesotho,2010,840003.0
+Lesotho,2011,856339.0
+Lesotho,2012,873573.0
+Lesotho,2013,891711.0
+Lesotho,2014,909653.0
+Low & middle income,2004,2438360691.0
+Low & middle income,2005,2483615821.0
+Low & middle income,2006,2512567894.0
+Low & middle income,2007,2541763906.0
+Low & middle income,2008,2570877515.0
+Low & middle income,2009,2599864610.0
+Low & middle income,2010,2626088344.0
+Low & middle income,2011,2660284308.0
+Low & middle income,2012,2695156778.0
+Low & middle income,2013,2733255073.0
+Low & middle income,2014,2772712793.0
+Low income,2004,199689272.0
+Low income,2005,205566012.0
+Low income,2006,211400213.0
+Low income,2007,217295625.0
+Low income,2008,223542976.0
+Low income,2009,230014605.0
+Low income,2010,236701414.0
+Low income,2011,243230051.0
+Low income,2012,249907941.0
+Low income,2013,257484377.0
+Low income,2014,265490573.0
+Lower middle income,2004,1005913198.0
+Lower middle income,2005,1030745693.0
+Lower middle income,2006,1043423689.0
+Lower middle income,2007,1055830438.0
+Lower middle income,2008,1068700199.0
+Lower middle income,2009,1082898890.0
+Lower middle income,2010,1097435052.0
+Lower middle income,2011,1113761052.0
+Lower middle income,2012,1128973097.0
+Lower middle income,2013,1149067230.0
+Lower middle income,2014,1168902981.0
+Madagascar,2004,8509321.0
+Madagascar,2005,8782059.0
+Madagascar,2006,9132205.0
+Madagascar,2007,9490814.0
+Madagascar,2008,9859738.0
+Madagascar,2009,10241934.0
+Madagascar,2010,10637414.0
+Madagascar,2011,10864530.0
+Madagascar,2012,11076742.0
+Madagascar,2013,11446004.0
+Madagascar,2014,11826247.0
+Malawi,2004,5498084.0
+Malawi,2005,5710923.0
+Malawi,2006,5908142.0
+Malawi,2007,6045446.0
+Malawi,2008,6309075.0
+Malawi,2009,6499700.0
+Malawi,2010,6700691.0
+Malawi,2011,6902532.0
+Malawi,2012,7117665.0
+Malawi,2013,7333843.0
+Malawi,2014,7601913.0
+Malaysia,2004,10671548.0
+Malaysia,2005,10921176.0
+Malaysia,2006,11122256.0
+Malaysia,2007,11326438.0
+Malaysia,2008,11490594.0
+Malaysia,2009,11828351.0
+Malaysia,2010,12118629.0
+Malaysia,2011,12680325.0
+Malaysia,2012,13245366.0
+Malaysia,2013,13903106.0
+Malaysia,2014,14248789.0
+Maldives,2004,126343.0
+Maldives,2005,137046.0
+Maldives,2006,149386.0
+Maldives,2007,160461.0
+Maldives,2008,170338.0
+Maldives,2009,172995.0
+Maldives,2010,179666.0
+Maldives,2011,187625.0
+Maldives,2012,194363.0
+Maldives,2013,200786.0
+Maldives,2014,206937.0
+Mali,2004,3399660.0
+Mali,2005,3675012.0
+Mali,2006,3952268.0
+Mali,2007,4247530.0
+Mali,2008,4557912.0
+Mali,2009,4879945.0
+Mali,2010,5211333.0
+Mali,2011,5354185.0
+Mali,2012,5509347.0
+Mali,2013,5668058.0
+Mali,2014,5829592.0
+Mauritius,2004,533411.0
+Mauritius,2005,542496.0
+Mauritius,2006,545354.0
+Mauritius,2007,547273.0
+Mauritius,2008,553536.0
+Mauritius,2009,559461.0
+Mauritius,2010,571546.0
+Mauritius,2011,571678.0
+Mauritius,2012,580969.0
+Mauritius,2013,600402.0
+Mauritius,2014,612630.0
+Mexico,2004,43743930.0
+Mexico,2005,44531943.0
+Mexico,2006,46238712.0
+Mexico,2007,47444330.0
+Mexico,2008,48793303.0
+Mexico,2009,49110194.0
+Mexico,2010,51046361.0
+Mexico,2011,51525632.0
+Mexico,2012,53682338.0
+Mexico,2013,54408566.0
+Mexico,2014,55636413.0
+Middle East & North Africa,2004,109381778.0
+Middle East & North Africa,2005,113777691.0
+Middle East & North Africa,2006,116125384.0
+Middle East & North Africa,2007,119950044.0
+Middle East & North Africa,2008,122765068.0
+Middle East & North Africa,2009,126655132.0
+Middle East & North Africa,2010,130454449.0
+Middle East & North Africa,2011,133854091.0
+Middle East & North Africa,2012,137260024.0
+Middle East & North Africa,2013,140975571.0
+Middle East & North Africa,2014,143961986.0
+Middle East & North Africa (excluding high income),2004,93043013.0
+Middle East & North Africa (excluding high income),2005,96426978.0
+Middle East & North Africa (excluding high income),2006,97595652.0
+Middle East & North Africa (excluding high income),2007,100040690.0
+Middle East & North Africa (excluding high income),2008,101407059.0
+Middle East & North Africa (excluding high income),2009,103805005.0
+Middle East & North Africa (excluding high income),2010,105980268.0
+Middle East & North Africa (excluding high income),2011,108063858.0
+Middle East & North Africa (excluding high income),2012,110192785.0
+Middle East & North Africa (excluding high income),2013,112758992.0
+Middle East & North Africa (excluding high income),2014,114758218.0
+Middle income,2004,2238671420.0
+Middle income,2005,2278049809.0
+Middle income,2006,2301167681.0
+Middle income,2007,2324468281.0
+Middle income,2008,2347334540.0
+Middle income,2009,2369850005.0
+Middle income,2010,2389386930.0
+Middle income,2011,2417054257.0
+Middle income,2012,2445248837.0
+Middle income,2013,2475770696.0
+Middle income,2014,2507222220.0
+Moldova,2004,1442078.0
+Moldova,2005,1436722.0
+Moldova,2006,1359328.0
+Moldova,2007,1328865.0
+Moldova,2008,1320387.0
+Moldova,2009,1269744.0
+Moldova,2010,1242635.0
+Moldova,2011,1262406.0
+Moldova,2012,1216877.0
+Moldova,2013,1241247.0
+Moldova,2014,1246274.0
+Morocco,2004,10842488.0
+Morocco,2005,10917010.0
+Morocco,2006,10975927.0
+Morocco,2007,11153801.0
+Morocco,2008,11295407.0
+Morocco,2009,11342663.0
+Morocco,2010,11509142.0
+Morocco,2011,11763124.0
+Morocco,2012,11807736.0
+Morocco,2013,11952744.0
+Morocco,2014,12155407.0
+Mozambique,2004,9449616.0
+Mozambique,2005,9686708.0
+Mozambique,2006,9898378.0
+Mozambique,2007,10112152.0
+Mozambique,2008,10324796.0
+Mozambique,2009,10532178.0
+Mozambique,2010,10730579.0
+Mozambique,2011,10904472.0
+Mozambique,2012,11063197.0
+Mozambique,2013,11400987.0
+Mozambique,2014,11753743.0
+Namibia,2004,729225.0
+Namibia,2005,750450.0
+Namibia,2006,772852.0
+Namibia,2007,795445.0
+Namibia,2008,818897.0
+Namibia,2009,818832.0
+Namibia,2010,818571.0
+Namibia,2011,822226.0
+Namibia,2012,825197.0
+Namibia,2013,850408.0
+Namibia,2014,876869.0
+Netherlands,2004,8554722.0
+Netherlands,2005,8595191.0
+Netherlands,2006,8657620.0
+Netherlands,2007,8800508.0
+Netherlands,2008,8930436.0
+Netherlands,2009,9018622.0
+Netherlands,2010,8847990.0
+Netherlands,2011,8863386.0
+Netherlands,2012,8974701.0
+Netherlands,2013,8999236.0
+Netherlands,2014,8972876.0
+New Zealand,2004,2124180.0
+New Zealand,2005,2181805.0
+New Zealand,2006,2233869.0
+New Zealand,2007,2269941.0
+New Zealand,2008,2294520.0
+New Zealand,2009,2314987.0
+New Zealand,2010,2340026.0
+New Zealand,2011,2369253.0
+New Zealand,2012,2378191.0
+New Zealand,2013,2405997.0
+New Zealand,2014,2443827.0
+Nicaragua,2004,2055538.0
+Nicaragua,2005,2117331.0
+Nicaragua,2006,2183727.0
+Nicaragua,2007,2244386.0
+Nicaragua,2008,2306029.0
+Nicaragua,2009,2372271.0
+Nicaragua,2010,2433151.0
+Nicaragua,2011,2493017.0
+Nicaragua,2012,2554515.0
+Nicaragua,2013,2616027.0
+Nicaragua,2014,2675728.0
+Niger,2004,4310586.0
+Niger,2005,4475252.0
+Niger,2006,4624525.0
+Niger,2007,4783733.0
+Niger,2008,4952393.0
+Niger,2009,5131014.0
+Niger,2010,5320775.0
+Niger,2011,5512624.0
+Niger,2012,5718747.0
+Niger,2013,5937513.0
+Niger,2014,6167735.0
+Nigeria,2004,41777188.0
+Nigeria,2005,42977349.0
+Nigeria,2006,44129242.0
+Nigeria,2007,45355531.0
+Nigeria,2008,46646182.0
+Nigeria,2009,47992642.0
+Nigeria,2010,49388905.0
+Nigeria,2011,50779043.0
+Nigeria,2012,52229485.0
+Nigeria,2013,53743748.0
+Nigeria,2014,55332260.0
+North America,2004,167869289.0
+North America,2005,169920539.0
+North America,2006,172059560.0
+North America,2007,173809981.0
+North America,2008,175946148.0
+North America,2009,176180311.0
+North America,2010,176185108.0
+North America,2011,176367928.0
+North America,2012,177867028.0
+North America,2013,178598435.0
+North America,2014,179446367.0
+Norway,2004,2411607.0
+Norway,2005,2427882.0
+Norway,2006,2453646.0
+Norway,2007,2513057.0
+Norway,2008,2590894.0
+Norway,2009,2592725.0
+Norway,2010,2607172.0
+Norway,2011,2636032.0
+Norway,2012,2683060.0
+Norway,2013,2704284.0
+Norway,2014,2732444.0
+OECD members,2004,569115984.0
+OECD members,2005,575556950.0
+OECD members,2006,582847279.0
+OECD members,2007,589147540.0
+OECD members,2008,596552055.0
+OECD members,2009,599331508.0
+OECD members,2010,604116388.0
+OECD members,2011,605602286.0
+OECD members,2012,611901634.0
+OECD members,2013,616065276.0
+OECD members,2014,621026082.0
+Oman,2004,899789.0
+Oman,2005,942545.0
+Oman,2006,1002703.0
+Oman,2007,1071483.0
+Oman,2008,1149664.0
+Oman,2009,1253179.0
+Oman,2010,1376740.0
+Oman,2011,1523114.0
+Oman,2012,1697111.0
+Oman,2013,1887197.0
+Oman,2014,2078856.0
+Pakistan,2004,47686271.0
+Pakistan,2005,50075165.0
+Pakistan,2006,52556636.0
+Pakistan,2007,53632912.0
+Pakistan,2008,54923591.0
+Pakistan,2009,56930103.0
+Pakistan,2010,58798535.0
+Pakistan,2011,60463129.0
+Pakistan,2012,61826891.0
+Pakistan,2013,63234030.0
+Pakistan,2014,64591118.0
+Papua New Guinea,2004,2727906.0
+Papua New Guinea,2005,2801181.0
+Papua New Guinea,2006,2878131.0
+Papua New Guinea,2007,2942832.0
+Papua New Guinea,2008,3009334.0
+Papua New Guinea,2009,3081151.0
+Papua New Guinea,2010,3148469.0
+Papua New Guinea,2011,3210905.0
+Papua New Guinea,2012,3278674.0
+Papua New Guinea,2013,3356894.0
+Papua New Guinea,2014,3435061.0
+Paraguay,2004,2554441.0
+Paraguay,2005,2631980.0
+Paraguay,2006,2709125.0
+Paraguay,2007,2779634.0
+Paraguay,2008,2837232.0
+Paraguay,2009,2939490.0
+Paraguay,2010,2917671.0
+Paraguay,2011,2994723.0
+Paraguay,2012,3083534.0
+Paraguay,2013,3163735.0
+Paraguay,2014,3249278.0
+Peru,2004,12635426.0
+Peru,2005,12836429.0
+Peru,2006,13368130.0
+Peru,2007,14545056.0
+Peru,2008,14994072.0
+Peru,2009,15241956.0
+Peru,2010,15538119.0
+Peru,2011,15754996.0
+Peru,2012,16055398.0
+Peru,2013,16103967.0
+Peru,2014,16441208.0
+Philippines,2004,35286351.0
+Philippines,2005,35207431.0
+Philippines,2006,35683099.0
+Philippines,2007,36301926.0
+Philippines,2008,37604852.0
+Philippines,2009,38838149.0
+Philippines,2010,40219202.0
+Philippines,2011,41415562.0
+Philippines,2012,42048305.0
+Philippines,2013,42814694.0
+Philippines,2014,43625217.0
+Poland,2004,17242856.0
+Poland,2005,17393206.0
+Poland,2006,17281890.0
+Poland,2007,17295839.0
+Poland,2008,17546970.0
+Poland,2009,17830455.0
+Poland,2010,18048539.0
+Poland,2011,18122025.0
+Poland,2012,18253209.0
+Poland,2013,18297521.0
+Poland,2014,18418508.0
+Portugal,2004,5460519.0
+Portugal,2005,5511054.0
+Portugal,2006,5536390.0
+Portugal,2007,5553798.0
+Portugal,2008,5544614.0
+Portugal,2009,5487144.0
+Portugal,2010,5483823.0
+Portugal,2011,5426060.0
+Portugal,2012,5382486.0
+Portugal,2013,5289873.0
+Portugal,2014,5237335.0
+Russian Federation,2004,74634939.0
+Russian Federation,2005,75301253.0
+Russian Federation,2006,75549879.0
+Russian Federation,2007,76621419.0
+Russian Federation,2008,77038214.0
+Russian Federation,2009,76947430.0
+Russian Federation,2010,76574711.0
+Russian Federation,2011,76948434.0
+Russian Federation,2012,76859513.0
+Russian Federation,2013,76506594.0
+Russian Federation,2014,76260120.0
+Rwanda,2004,4297747.0
+Rwanda,2005,4408561.0
+Rwanda,2006,4538159.0
+Rwanda,2007,4672134.0
+Rwanda,2008,4806650.0
+Rwanda,2009,4945607.0
+Rwanda,2010,5088678.0
+Rwanda,2011,5226395.0
+Rwanda,2012,5371357.0
+Rwanda,2013,5523267.0
+Rwanda,2014,5677503.0
+Saudi Arabia,2004,7753132.0
+Saudi Arabia,2005,8110530.0
+Saudi Arabia,2006,8437242.0
+Saudi Arabia,2007,8776837.0
+Saudi Arabia,2008,9118396.0
+Saudi Arabia,2009,9466106.0
+Saudi Arabia,2010,10024903.0
+Saudi Arabia,2011,10637428.0
+Saudi Arabia,2012,11277095.0
+Saudi Arabia,2013,11864444.0
+Saudi Arabia,2014,12335568.0
+Senegal,2004,3309701.0
+Senegal,2005,3336049.0
+Senegal,2006,3355462.0
+Senegal,2007,3517820.0
+Senegal,2008,3689298.0
+Senegal,2009,3870657.0
+Senegal,2010,4062407.0
+Senegal,2011,4264353.0
+Senegal,2012,4405981.0
+Senegal,2013,4554449.0
+Senegal,2014,4704802.0
+Singapore,2004,2142354.0
+Singapore,2005,2239057.0
+Singapore,2006,2360507.0
+Singapore,2007,2480293.0
+Singapore,2008,2639252.0
+Singapore,2009,2734296.0
+Singapore,2010,2819981.0
+Singapore,2011,2904346.0
+Singapore,2012,3014111.0
+Singapore,2013,3054833.0
+Singapore,2014,3101837.0
+Slovenia,2004,1011754.0
+Slovenia,2005,1018274.0
+Slovenia,2006,1025004.0
+Slovenia,2007,1039546.0
+Slovenia,2008,1035551.0
+Slovenia,2009,1042918.0
+Slovenia,2010,1043262.0
+Slovenia,2011,1022686.0
+Slovenia,2012,1017577.0
+Slovenia,2013,1012989.0
+Slovenia,2014,1017230.0
+Solomon Islands,2004,182083.0
+Solomon Islands,2005,187079.0
+Solomon Islands,2006,191958.0
+Solomon Islands,2007,196713.0
+Solomon Islands,2008,201415.0
+Solomon Islands,2009,206651.0
+Solomon Islands,2010,211598.0
+Solomon Islands,2011,216345.0
+Solomon Islands,2012,221661.0
+Solomon Islands,2013,227321.0
+Solomon Islands,2014,233278.0
+South Africa,2004,16776273.0
+South Africa,2005,17485653.0
+South Africa,2006,18024956.0
+South Africa,2007,18045106.0
+South Africa,2008,18721191.0
+South Africa,2009,18405513.0
+South Africa,2010,18176862.0
+South Africa,2011,18492372.0
+South Africa,2012,18985640.0
+South Africa,2013,19663016.0
+South Africa,2014,20104698.0
+South Asia,2004,590319518.0
+South Asia,2005,606781221.0
+South Asia,2006,611467148.0
+South Asia,2007,614231669.0
+South Asia,2008,617188186.0
+South Asia,2009,620955634.0
+South Asia,2010,624397765.0
+South Asia,2011,631045967.0
+South Asia,2012,637452556.0
+South Asia,2013,648965135.0
+South Asia,2014,659911424.0
+Spain,2004,20551079.0
+Spain,2005,21270830.0
+Spain,2006,21947699.0
+Spain,2007,22525791.0
+Spain,2008,23175445.0
+Spain,2009,23425832.0
+Spain,2010,23589546.0
+Spain,2011,23625452.0
+Spain,2012,23611720.0
+Spain,2013,23375287.0
+Spain,2014,23207958.0
+Sri Lanka,2004,7793278.0
+Sri Lanka,2005,7899805.0
+Sri Lanka,2006,8152628.0
+Sri Lanka,2007,8080669.0
+Sri Lanka,2008,8128406.0
+Sri Lanka,2009,8288388.0
+Sri Lanka,2010,8215410.0
+Sri Lanka,2011,8239375.0
+Sri Lanka,2012,8172455.0
+Sri Lanka,2013,8315370.0
+Sri Lanka,2014,8111656.0
+Sub-Saharan Africa,2004,282895782.0
+Sub-Saharan Africa,2005,291467592.0
+Sub-Saharan Africa,2006,299906972.0
+Sub-Saharan Africa,2007,308353980.0
+Sub-Saharan Africa,2008,317974517.0
+Sub-Saharan Africa,2009,327049457.0
+Sub-Saharan Africa,2010,336587852.0
+Sub-Saharan Africa,2011,346342983.0
+Sub-Saharan Africa,2012,356530458.0
+Sub-Saharan Africa,2013,367967500.0
+Sub-Saharan Africa,2014,379527279.0
+Sub-Saharan Africa (excluding high income),2004,282895782.0
+Sub-Saharan Africa (excluding high income),2005,291467592.0
+Sub-Saharan Africa (excluding high income),2006,299906972.0
+Sub-Saharan Africa (excluding high income),2007,308353980.0
+Sub-Saharan Africa (excluding high income),2008,317974517.0
+Sub-Saharan Africa (excluding high income),2009,327049457.0
+Sub-Saharan Africa (excluding high income),2010,336587852.0
+Sub-Saharan Africa (excluding high income),2011,346342983.0
+Sub-Saharan Africa (excluding high income),2012,356530458.0
+Sub-Saharan Africa (excluding high income),2013,367967500.0
+Sub-Saharan Africa (excluding high income),2014,379527279.0
+Sudan,2004,8405226.0
+Sudan,2005,8579036.0
+Sudan,2006,8722506.0
+Sudan,2007,8864298.0
+Sudan,2008,9009212.0
+Sudan,2009,9163156.0
+Sudan,2010,9391350.0
+Sudan,2011,9633955.0
+Sudan,2012,9912309.0
+Sudan,2013,10237319.0
+Sudan,2014,10550452.0
+Suriname,2004,176975.0
+Suriname,2005,180871.0
+Suriname,2006,185005.0
+Suriname,2007,189430.0
+Suriname,2008,194026.0
+Suriname,2009,198580.0
+Suriname,2010,202930.0
+Suriname,2011,206747.0
+Suriname,2012,210363.0
+Suriname,2013,213786.0
+Suriname,2014,217069.0
+Swaziland,2004,308245.0
+Swaziland,2005,313703.0
+Swaziland,2006,321312.0
+Swaziland,2007,330263.0
+Swaziland,2008,340477.0
+Swaziland,2009,351567.0
+Swaziland,2010,363019.0
+Swaziland,2011,375052.0
+Swaziland,2012,387427.0
+Swaziland,2013,400099.0
+Swaziland,2014,412912.0
+Sweden,2004,4635898.0
+Sweden,2005,4748517.0
+Sweden,2006,4798464.0
+Sweden,2007,4849240.0
+Sweden,2008,4909031.0
+Sweden,2009,4923720.0
+Sweden,2010,4974003.0
+Sweden,2011,5038028.0
+Sweden,2012,5089460.0
+Sweden,2013,5152402.0
+Sweden,2014,5192592.0
+Switzerland,2004,4147794.0
+Switzerland,2005,4171957.0
+Switzerland,2006,4236387.0
+Switzerland,2007,4307658.0
+Switzerland,2008,4409719.0
+Switzerland,2009,4479591.0
+Switzerland,2010,4510957.0
+Switzerland,2011,4581654.0
+Switzerland,2012,4642458.0
+Switzerland,2013,4708639.0
+Switzerland,2014,4795052.0
+Tanzania,2004,18755286.0
+Tanzania,2005,19332112.0
+Tanzania,2006,19910373.0
+Tanzania,2007,20306263.0
+Tanzania,2008,20699501.0
+Tanzania,2009,21066287.0
+Tanzania,2010,21393331.0
+Tanzania,2011,21668451.0
+Tanzania,2012,21854095.0
+Tanzania,2013,21773966.0
+Tanzania,2014,22470901.0
+Thailand,2004,37360164.0
+Thailand,2005,37874679.0
+Thailand,2006,38008057.0
+Thailand,2007,38837289.0
+Thailand,2008,39170235.0
+Thailand,2009,39223645.0
+Thailand,2010,39378492.0
+Thailand,2011,40167490.0
+Thailand,2012,40230493.0
+Thailand,2013,39805031.0
+Thailand,2014,39988092.0
+Togo,2004,2529592.0
+Togo,2005,2612721.0
+Togo,2006,2692177.0
+Togo,2007,2768639.0
+Togo,2008,2848531.0
+Togo,2009,2930674.0
+Togo,2010,3015296.0
+Togo,2011,3100455.0
+Togo,2012,3188821.0
+Togo,2013,3281195.0
+Togo,2014,3376706.0
+Trinidad and Tobago,2004,636761.0
+Trinidad and Tobago,2005,655372.0
+Trinidad and Tobago,2006,661169.0
+Trinidad and Tobago,2007,664300.0
+Trinidad and Tobago,2008,668522.0
+Trinidad and Tobago,2009,664753.0
+Trinidad and Tobago,2010,671259.0
+Trinidad and Tobago,2011,673684.0
+Trinidad and Tobago,2012,675279.0
+Trinidad and Tobago,2013,675932.0
+Trinidad and Tobago,2014,675376.0
+Tunisia,2004,3402346.0
+Tunisia,2005,3438710.0
+Tunisia,2006,3512926.0
+Tunisia,2007,3589176.0
+Tunisia,2008,3665539.0
+Tunisia,2009,3738673.0
+Tunisia,2010,3806039.0
+Tunisia,2011,3889216.0
+Tunisia,2012,3996469.0
+Tunisia,2013,4029441.0
+Tunisia,2014,4057228.0
+Turkey,2004,21902362.0
+Turkey,2005,22353108.0
+Turkey,2006,22657351.0
+Turkey,2007,23027056.0
+Turkey,2008,23756899.0
+Turkey,2009,24700815.0
+Turkey,2010,25640706.0
+Turkey,2011,26647250.0
+Turkey,2012,27153513.0
+Turkey,2013,27879996.0
+Turkey,2014,28719545.0
+Uganda,2004,11005854.0
+Uganda,2005,11223100.0
+Uganda,2006,11778873.0
+Uganda,2007,12363713.0
+Uganda,2008,12975424.0
+Uganda,2009,13611307.0
+Uganda,2010,14270644.0
+Uganda,2011,14942778.0
+Uganda,2012,15642575.0
+Uganda,2013,16369071.0
+Uganda,2014,16989652.0
+Ukraine,2004,23220868.0
+Ukraine,2005,23431405.0
+Ukraine,2006,23356236.0
+Ukraine,2007,23271769.0
+Ukraine,2008,23179708.0
+Ukraine,2009,23104159.0
+Ukraine,2010,23063322.0
+Ukraine,2011,22973097.0
+Ukraine,2012,22715846.0
+Ukraine,2013,22838230.0
+Ukraine,2014,22734425.0
+United Arab Emirates,2004,2527471.0
+United Arab Emirates,2005,2907562.0
+United Arab Emirates,2006,3390981.0
+United Arab Emirates,2007,3992668.0
+United Arab Emirates,2008,4646213.0
+United Arab Emirates,2009,5251025.0
+United Arab Emirates,2010,5781880.0
+United Arab Emirates,2011,6056235.0
+United Arab Emirates,2012,6201503.0
+United Arab Emirates,2013,6253231.0
+United Arab Emirates,2014,6274120.0
+United States,2004,150284082.0
+United States,2005,152192954.0
+United States,2006,154143488.0
+United States,2007,155528716.0
+United States,2008,157343255.0
+United States,2009,157460888.0
+United States,2010,157264492.0
+United States,2011,157300455.0
+United States,2012,158582735.0
+United States,2013,159091418.0
+United States,2014,159829705.0
+Upper middle income,2004,1232758221.0
+Upper middle income,2005,1247304116.0
+Upper middle income,2006,1257743992.0
+Upper middle income,2007,1268637842.0
+Upper middle income,2008,1278634340.0
+Upper middle income,2009,1286951115.0
+Upper middle income,2010,1291951878.0
+Upper middle income,2011,1303293204.0
+Upper middle income,2012,1316275740.0
+Upper middle income,2013,1326703466.0
+Upper middle income,2014,1338319239.0
+Uruguay,2004,1585653.0
+Uruguay,2005,1593110.0
+Uruguay,2006,1632419.0
+Uruguay,2007,1654500.0
+Uruguay,2008,1676462.0
+Uruguay,2009,1699022.0
+Uruguay,2010,1708950.0
+Uruguay,2011,1739458.0
+Uruguay,2012,1740449.0
+Uruguay,2013,1736387.0
+Uruguay,2014,1750381.0
+Uzbekistan,2004,10162405.0
+Uzbekistan,2005,10446694.0
+Uzbekistan,2006,10747501.0
+Uzbekistan,2007,11075624.0
+Uzbekistan,2008,11421817.0
+Uzbekistan,2009,11774384.0
+Uzbekistan,2010,12262758.0
+Uzbekistan,2011,12700436.0
+Uzbekistan,2012,12999614.0
+Uzbekistan,2013,13308935.0
+Uzbekistan,2014,13619472.0
+"Venezuela, RB",2004,12028599.0
+"Venezuela, RB",2005,12159078.0
+"Venezuela, RB",2006,12277012.0
+"Venezuela, RB",2007,12438889.0
+"Venezuela, RB",2008,12760908.0
+"Venezuela, RB",2009,13008204.0
+"Venezuela, RB",2010,13215129.0
+"Venezuela, RB",2011,13475826.0
+"Venezuela, RB",2012,13611859.0
+"Venezuela, RB",2013,13867502.0
+"Venezuela, RB",2014,14219791.0
+World,2004,2978220272.0
+World,2005,3029922290.0
+World,2006,3065607383.0
+World,2007,3101211280.0
+World,2008,3137374127.0
+World,2009,3169516370.0
+World,2010,3199360950.0
+World,2011,3235093079.0
+World,2012,3275071610.0
+World,2013,3317109099.0
+World,2014,3360432641.0
+"Yemen, Rep.",2004,5089436.0
+"Yemen, Rep.",2005,5306730.0
+"Yemen, Rep.",2006,5532495.0
+"Yemen, Rep.",2007,5775142.0
+"Yemen, Rep.",2008,6030219.0
+"Yemen, Rep.",2009,6292692.0
+"Yemen, Rep.",2010,6545445.0
+"Yemen, Rep.",2011,6811078.0
+"Yemen, Rep.",2012,7083064.0
+"Yemen, Rep.",2013,7359875.0
+"Yemen, Rep.",2014,7642054.0
+Zambia,2004,4947377.0
+Zambia,2005,5079379.0
+Zambia,2006,5118130.0
+Zambia,2007,5155740.0
+Zambia,2008,5193100.0
+Zambia,2009,5360072.0
+Zambia,2010,5531068.0
+Zambia,2011,5735186.0
+Zambia,2012,5941617.0
+Zambia,2013,6158070.0
+Zambia,2014,6385092.0
+Zimbabwe,2004,6442074.0
+Zimbabwe,2005,6492630.0
+Zimbabwe,2006,6560249.0
+Zimbabwe,2007,6629623.0
+Zimbabwe,2008,6701665.0
+Zimbabwe,2009,6776861.0
+Zimbabwe,2010,6854979.0
+Zimbabwe,2011,6952012.0
+Zimbabwe,2012,7097284.0
+Zimbabwe,2013,7253392.0
+Zimbabwe,2014,7419111.0
