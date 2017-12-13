@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="587ec323-67bf-4217-954a-137e2b642d11" name="Default" comment="First commit">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/factInvestment.html" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/ResultChordChart.html" afterPath="$PROJECT_DIR$/resultChordChart.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/dataSet/new dataset/finalDataset.py" afterPath="$PROJECT_DIR$/dataSet/new dataset/fixColumnName.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,46 +37,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chrodSmall.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/chrodSmall.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="co2pieChartSmall.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/co2pieChartSmall.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estimation.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/estimation.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="estimationSmall.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/img/estimationSmall.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="bundleChart.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bundleChart.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="factInvestment.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/factInvestment.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -94,8 +61,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="307">
-                <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+              <first_editor relative-caret-position="771">
+                <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -103,8 +70,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ResultChordChart.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
+      <file leaf-file-name="data_preprocessingNew.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dataSet/raw_data/data_preprocessingNew.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resultChordChart.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resultChordChart.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="396">
               <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
@@ -258,6 +235,17 @@
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="DataVS_project" type="cbb8eebc:String" user="DataVS_project" />
             </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataVS_project" type="cbb8eebc:String" user="DataVS_project" />
+              <item name="dataSet" type="cbb8eebc:String" user="dataSet" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="DataVS_project" type="cbb8eebc:String" user="DataVS_project" />
+              <item name="dataSet" type="cbb8eebc:String" user="dataSet" />
+              <item name="new dataset" type="cbb8eebc:String" user="new dataset" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -291,8 +279,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/img" />
       <recent name="$PROJECT_DIR$/nvd3-gh-pages" />
     </key>
   </component>
@@ -346,12 +334,12 @@
       <workItem from="1513111802582" duration="132000" />
       <workItem from="1513111971188" duration="2320000" />
       <workItem from="1513114713633" duration="127000" />
-      <workItem from="1513116548692" duration="500000" />
+      <workItem from="1513116548692" duration="4637000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42231000" />
+    <option name="totallyTimeSpent" value="46368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="0" width="1920" height="1080" extended-state="0" />
@@ -363,7 +351,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32991204" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Execute Anonymous" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23733863" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19905214" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -391,18 +379,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="30" column="48" lean-forward="true" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/resultPieChart.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resultPieChart.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="702">
@@ -605,20 +581,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/fangyeDataMining.jpg" />
-    <entry file="file://$PROJECT_DIR$/img/estimationSmall.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bundleChart.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/factInvestment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -634,6 +597,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resultChordChart.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/estimationSmall.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -647,10 +623,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResultChordChart.html">
+    <entry file="file://$PROJECT_DIR$/dataSet/raw_data/gini index.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="44" lean-forward="false" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factInvestment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="26" column="57" lean-forward="true" selection-start-line="26" selection-start-column="57" selection-end-line="26" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataSet/raw_data/data_preprocessingNew.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -664,8 +656,8 @@
       </provider>
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="307">
-            <caret line="19" column="55" lean-forward="false" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
+          <first_editor relative-caret-position="771">
+            <caret line="51" column="72" lean-forward="false" selection-start-line="51" selection-start-column="72" selection-end-line="51" selection-end-column="72" />
             <folding />
           </first_editor>
           <second_editor />

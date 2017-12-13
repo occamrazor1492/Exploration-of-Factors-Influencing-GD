@@ -7,11 +7,8 @@ Keywords—GDP, Machine learning, Regression, Visualization
 
 
 
-## Preview
-
-![Landing Page Preview](https://i.imgur.com/zMTH1BT.png)
-
-**[View Live Preview](http://acewatch.xyz)**
+## Website
+**[acewatch.xyz](http://acewatch.xyz)**
 
 
 
@@ -41,8 +38,19 @@ Faculty of Computer Science
 Dalhousie University
 Halifax, Canada
 
-## Status
-[![npm version](https://img.shields.io/npm/v/startbootstrap-landing-page.svg)](https://www.npmjs.com/package/startbootstrap-landing-page)
-[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-landing-page)
-[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page)
-[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-landing-page?type=dev)
+## Project Structure
+* dataSet
+    * raw_data 
+        * data_preprocessing.py  -- Choose year between 2004-2014, fill NaN with column average
+        * data_preprocessingNew.py --  Choose year between 2004-2014, fill NaN with column average
+        * *.csv -- raw csv file  
+    * new dataset
+        * *.csv -- csv file with year between 2004-2014 with out NaN value
+        * fixColumnName.py -- fix the column name, delete irrelevant column
+        * findInterMax.py -- do the combination of countries in each file, find the best option, delete unwanted countries in table
+        * 11dataset2.0
+            * *.csv -- regressors csv file that choose finally to do the machine learning, 141 countries, 11 tables including GDP
+            * dataset3.0
+                * *.csv -- formatted csv file ready to be integrated into one table 
+                * firstLine.py -- integrated into one table
+                * finalDatasetToby.csv -- final table
