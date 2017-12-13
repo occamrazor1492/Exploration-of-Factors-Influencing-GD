@@ -59,7 +59,7 @@ To begin using this template, choose one of the following options to get started
 * [startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page)
 
 ## Member
-Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,
+Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,<br>
 Faculty of Computer Science
 Dalhousie University
 Halifax, Canada
