@@ -1,4 +1,4 @@
-# [CSCI_6906 Final Project](http://https://github.com/zhongziyun1993/DataVS_project)
+# [CSCI_6906 Final Project](https://github.com/zhongziyun1993/DataVS_project)
 
 ## Topic
 ##### Exploration of Factors Influencing GDP
