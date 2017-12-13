@@ -19,25 +19,7 @@ To begin using this template, choose one of the following options to get started
 * [Fork, Clone, or Download on GitHub](https:https://github.com/zhongziyun1993/DataVS_project)
 * **$cd DataVS_project <br><h>$python -m SimpleHTTPServer**
 
-## Reference
-* [World Bank Dataset](http://databank.worldbank.org/data/home.aspx)
-* [NVD3](https://github.com/novus/nvd3)
-* [D3 (or D3.js) JavaScript library](https://github.com/d3/d3)
-* [scikit-learn Machine Learning in Python](http://scikit-learn.org/stable/index.html)
-* [Bootstrap](https://github.com/twbs/bootstrap)
-* [Nginx](https://www.nginx.com/resources/wiki/)
-* [D3plus](https://d3plus.org/)
-* [D3.json](http://learnjsdata.com/read_data.html)
-* [jQuery](https://jquery.com/)
-* [WEKA](https://www.cs.waikato.ac.nz/ml/weka/)
-* [STATA14](https://www.stata.com/stata14/)
-* [startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page)
 
-## Member
-Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,
-Faculty of Computer Science
-Dalhousie University
-Halifax, Canada
 
 ## Project Structure
 * index.html
@@ -60,3 +42,24 @@ Halifax, Canada
                 * *.csv -- formatted csv file ready to be integrated into one table 
                 * firstLine.py -- integrated into one table
                 * finalDatasetToby.csv -- final table
+
+
+## Reference
+* [World Bank Dataset](http://databank.worldbank.org/data/home.aspx)
+* [NVD3](https://github.com/novus/nvd3)
+* [D3 (or D3.js) JavaScript library](https://github.com/d3/d3)
+* [scikit-learn Machine Learning in Python](http://scikit-learn.org/stable/index.html)
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Nginx](https://www.nginx.com/resources/wiki/)
+* [D3plus](https://d3plus.org/)
+* [D3.json](http://learnjsdata.com/read_data.html)
+* [jQuery](https://jquery.com/)
+* [WEKA](https://www.cs.waikato.ac.nz/ml/weka/)
+* [STATA14](https://www.stata.com/stata14/)
+* [startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page)
+
+## Member
+Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,
+Faculty of Computer Science
+Dalhousie University
+Halifax, Canada
