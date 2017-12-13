@@ -17,7 +17,7 @@ Keywords—GDP, Machine learning, Regression, Visualization
 To begin using this template, choose one of the following options to get started:
 * Clone the repo: `git clone https://github.com/zhongziyun1993/DataVS_project`
 * [Fork, Clone, or Download on GitHub](https:https://github.com/zhongziyun1993/DataVS_project)
-* **$cd /var/www/ <br><h>$python -m SimpleHTTPServer**
+* **$cd DataVS_project <br><h>$python -m SimpleHTTPServer**
 
 ## Reference
 * [World Bank Dataset](http://databank.worldbank.org/data/home.aspx)
@@ -31,6 +31,7 @@ To begin using this template, choose one of the following options to get started
 * [jQuery](https://jquery.com/)
 * [WEKA](https://www.cs.waikato.ac.nz/ml/weka/)
 * [STATA14](https://www.stata.com/stata14/)
+* [startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page)
 
 ## Member
 Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,
@@ -39,6 +40,11 @@ Dalhousie University
 Halifax, Canada
 
 ## Project Structure
+* index.html
+* bundleChart.html -- bundleChart Relation between 4 selected regressor and other 6 unselected regressor
+* resultChordChart.html -- How regressors relate to each other?
+* resultPieChart -- How regressors contribute to GDP
+* Jinya_6906_presentation -- K-mean classification result presentation
 * dataSet
     * raw_data 
         * data_preprocessing.py  -- Choose year between 2004-2014, fill NaN with column average
