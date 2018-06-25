@@ -1,5 +1,11 @@
 # [CSCI_6906 Final Project](https://github.com/zhongziyun1993/DataVS_project)
 
+## Website
+**[Hosted on AWS, Link:](http://ec2-18-219-234-69.us-east-2.compute.amazonaws.com/)**
+
+
+**[Report Link](https://dalu-my.sharepoint.com/:w:/g/personal/jn784780_dal_ca/ESsmL0MTzpZEsBTKajYXWM0B3ME90lLr6VY-JFEM5OK_Ug?e=bo9dwA)**
+
 ## Topic
 ##### Exploration of Factors Influencing GDP
 Abstract—GDP, Gross Domestics Products is a very abstract concept for non-economics professionals. For people to have a bettering understanding of GDP, we used machine learning, data classification, data regression on our pre-processed datasets. From the results, we found out which regressors are mostly contributed to GDP. Then, we used many different kinds of visualization modules to present our results. Users can interact with each visualization modules. From these modules, users get a good view about GDP.
@@ -7,9 +13,7 @@ Keywords—GDP, Machine learning, Regression, Visualization
 
 
 
-## Website
-**[Hosted on AWS, Link:](http://ec2-18-219-234-69.us-east-2.compute.amazonaws.com/)**
-**[Report Link](https://dalu-my.sharepoint.com/:w:/g/personal/jn784780_dal_ca/ESsmL0MTzpZEsBTKajYXWM0B3ME90lLr6VY-JFEM5OK_Ug?e=bo9dwA)**
+
 
 
 
