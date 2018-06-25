@@ -6,6 +6,18 @@
 
 **[Report Link](https://dalu-my.sharepoint.com/:w:/g/personal/jn784780_dal_ca/ESsmL0MTzpZEsBTKajYXWM0B3ME90lLr6VY-JFEM5OK_Ug?e=bo9dwA)**
 
+## Member
+Ziyun Zhong, 
+
+Fangye Tang, 
+
+Yunfei Guo, 
+
+Jingya Sun,<br>
+Faculty of Computer Science
+Dalhousie University
+Halifax, Canada
+
 ## Topic
 ##### Exploration of Factors Influencing GDP
 Abstract—GDP, Gross Domestics Products is a very abstract concept for non-economics professionals. For people to have a bettering understanding of GDP, we used machine learning, data classification, data regression on our pre-processed datasets. From the results, we found out which regressors are mostly contributed to GDP. Then, we used many different kinds of visualization modules to present our results. Users can interact with each visualization modules. From these modules, users get a good view about GDP.
@@ -63,8 +75,4 @@ To begin using this template, choose one of the following options to get started
 * [STATA14](https://www.stata.com/stata14/)
 * [startbootstrap-landing-page](https://github.com/BlackrockDigital/startbootstrap-landing-page)
 
-## Member
-Ziyun Zhong, Fangye Tang, Yunfei Guo, Jingya Sun,<br>
-Faculty of Computer Science
-Dalhousie University
-Halifax, Canada
+
