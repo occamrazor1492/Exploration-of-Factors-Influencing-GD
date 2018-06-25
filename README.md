@@ -8,7 +8,7 @@ Keywords—GDP, Machine learning, Regression, Visualization
 
 
 ## Website
-**[acewatch.xyz](http://acewatch.xyz)**
+**[Hosted on AWS, Link:](http://ec2-18-219-234-69.us-east-2.compute.amazonaws.com/)**
 **[Report Link](https://dalu-my.sharepoint.com/:w:/g/personal/jn784780_dal_ca/ESsmL0MTzpZEsBTKajYXWM0B3ME90lLr6VY-JFEM5OK_Ug?e=bo9dwA)**
 
 
