@@ -7,13 +7,15 @@
 **[Report Link](https://dalu-my.sharepoint.com/:w:/g/personal/jn784780_dal_ca/ESsmL0MTzpZEsBTKajYXWM0B3ME90lLr6VY-JFEM5OK_Ug?e=bo9dwA)**
 
 ## Member
-Ziyun Zhong, 
+**Ziyun Zhong
 
-Fangye Tang, 
+**Fangye Tang
 
-Yunfei Guo, 
+**Yunfei Guo
 
-Jingya Sun,<br>
+**Jingya Sun
+
+
 Faculty of Computer Science
 Dalhousie University
 Halifax, Canada
